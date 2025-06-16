@@ -159,8 +159,9 @@
         <target state="translated">Avota izmantošana</target>
       </trans-unit>
       <trans-unit id="s14622ee6de586485">
-        <source>Attempted to log in as </source>
-        <target state="translated">Mēģinājums pieteikties kā</target>
+        <source>Attempted to log in as <x id="0" equiv-text="${this.event.context.username}"/></source>
+        <target>Mēģinājums pieteikties kā
+        <x id="0" equiv-text="${this.event.context.username}"/></target>
       </trans-unit>
       <trans-unit id="sb07bf992e3d00664">
         <source>No additional data available.</source>
@@ -355,8 +356,9 @@
         <target state="translated">Jaunākie notikumi</target>
       </trans-unit>
       <trans-unit id="sc35581d9c1cd67ff">
-        <source>On behalf of </source>
-        <target state="translated">Uzsaukumā no</target>
+        <source>On behalf of <x id="0" equiv-text="${event.user.on_behalf_of.username}"/></source>
+        <target>Uzsaukumā no
+        <x id="0" equiv-text="${event.user.on_behalf_of.username}"/></target>
       </trans-unit>
       <trans-unit id="saf63a04c86018698">
         <source>-</source>
@@ -399,8 +401,9 @@
         <target state="translated">Sistēmas statuss</target>
       </trans-unit>
       <trans-unit id="scefe482c547fb3f3">
-        <source>Based on </source>
-        <target state="translated">Balstoties uz</target>
+        <source>Based on <x id="0" equiv-text="${value.versionCurrent}"/></source>
+        <target>Balstoties uz
+        <x id="0" equiv-text="${value.versionCurrent}"/></target>
       </trans-unit>
       <trans-unit id="s713d147e1761d0f0">
         <source>Up-to-date!</source>
@@ -459,8 +462,9 @@
         <target state="translated">Nav atrasts</target>
       </trans-unit>
       <trans-unit id="saa0e2675da69651b">
-        <source>The URL "</source>
-        <target state="translated">URL "</target>
+        <source>The URL "<x id="0" equiv-text="${this.url}"/>" was not found.</source>
+        <target>URL "
+        <x id="0" equiv-text="${this.url}"/>" was not found.</target>
       </trans-unit>
       <trans-unit id="s58cd9c2fe836d9c6">
         <source>Return home</source>
@@ -471,8 +475,9 @@
         <target state="translated">Vispārējais sistēmas statuss</target>
       </trans-unit>
       <trans-unit id="s6dfd15978586d05f">
-        <source>Welcome, </source>
-        <target state="translated">Laipni lūdzam,</target>
+        <source>Welcome, <x id="0" equiv-text="${username || &quot;&quot;}"/>.</source>
+        <target>Laipni lūdzam,
+        <x id="0" equiv-text="${name}"/>.</target>
       </trans-unit>
       <trans-unit id="sc381422c585b867f">
         <source>Quick actions</source>
@@ -1183,8 +1188,8 @@
         <target state="translated">Izveidot jaunu pakalpojumu sniedzēju.</target>
       </trans-unit>
       <trans-unit id="s5d6af4c100ad321b">
-        <source>Create </source>
-        <target state="translated">Izveidot</target>
+        <source>Create <x id="0" equiv-text="${type.name}"/></source>
+        <target>Izveidot <x id="0" equiv-text="${type.name}"/></target>
       </trans-unit>
       <trans-unit id="sb95baab425322600">
         <source>Shared secret</source>
@@ -1271,20 +1276,20 @@
         <target state="translated">ID</target>
       </trans-unit>
       <trans-unit id="se33b158a1ec02a09">
-        <source>Successfully deleted </source>
-        <target state="translated">Veiksmīgi izdzēsts</target>
+        <source>Successfully deleted <x id="0" equiv-text="${this.objects.length} ${this.objectLabel}"/></source>
+        <target state="translated">Veiksmīgi izdzēsts <x id="0" equiv-text="${this.objects.length} ${this.objectLabel}"/></target>
       </trans-unit>
       <trans-unit id="sf6eb148db23d19de">
-        <source>Failed to delete </source>
-        <target state="translated">Neizdevās izdzēst</target>
+        <source>Failed to delete <x id="0" equiv-text="${this.objectLabel}"/>: <x id="1" equiv-text="${e.toString()}"/></source>
+        <target>Neizdevās izdzēst <x id="0" equiv-text="${this.objectLabel}"/>: <x id="1" equiv-text="${e.toString()}"/></target>
       </trans-unit>
       <trans-unit id="s039b6434e8a75560">
-        <source>Delete </source>
-        <target state="translated">Dzēst</target>
+        <source>Delete <x id="0" equiv-text="${this.objectLabel}"/></source>
+        <target>Dzēst <x id="0" equiv-text="${this.objectLabel}"/></target>
       </trans-unit>
       <trans-unit id="s5819a49638f6d7cb">
-        <source>Are you sure you want to delete </source>
-        <target state="translated">Vai tiešām vēlaties dzēst</target>
+        <source>Are you sure you want to delete <x id="0" equiv-text="${this.objects.length} ${this.objectLabel}"/>?</source>
+        <target state="translated">Vai tiešām vēlaties dzēst <x id="0" equiv-text="${this.objects.length} ${this.objectLabel}"/>?</target>
       </trans-unit>
       <trans-unit id="sdc673e73b5c13aea">
         <source>Delete</source>
@@ -1323,8 +1328,8 @@
         <target state="translated">Atjaunināt</target>
       </trans-unit>
       <trans-unit id="sc9175cb129fdc306">
-        <source>Update </source>
-        <target state="translated">Atjaunināt</target>
+        <source>Update <x id="0" equiv-text="${item.verboseName}"/></source>
+        <target>Atjaunināt <x id="0" equiv-text="${item.verboseName}"/></target>
       </trans-unit>
       <trans-unit id="s398f6ba74ba8943a">
         <source>Select providers to add to application</source>
@@ -2049,16 +2054,16 @@ doesn't pass when either or both of the selected options are equal or above the 
         <target state="translated">Ceļš</target>
       </trans-unit>
       <trans-unit id="s030ac0829bb50a49">
-        <source>Policy </source>
-        <target state="translated">Politika</target>
+        <source>Policy <x id="0" equiv-text="${v.policyObj?.name}"/></source>
+        <target>Politika <x id="0" equiv-text="${item.policyObj?.name}"/></target>
       </trans-unit>
       <trans-unit id="s2a64d2dca3da9b0e">
-        <source>Group </source>
-        <target state="translated">Grupa</target>
+        <source>Group <x id="0" equiv-text="${v.groupObj?.name}"/></source>
+        <target>Grupa <x id="0" equiv-text="${item.groupObj?.name}"/></target>
       </trans-unit>
       <trans-unit id="se5dc026819a32ff8">
-        <source>User </source>
-        <target state="translated">Lietotājs</target>
+        <source>User <x id="0" equiv-text="${v.userObj?.name}"/></source>
+        <target>Lietotājs <x id="0" equiv-text="${item.userObj?.name}"/></target>
       </trans-unit>
       <trans-unit id="s50c312bea93b6925">
         <source>Edit Policy</source>
@@ -2517,8 +2522,8 @@ doesn't pass when either or both of the selected options are equal or above the 
         <target state="translated">Nav vēl sinhronizēts.</target>
       </trans-unit>
       <trans-unit id="sf3fec8353106ac2f">
-        <source>OAuth Source </source>
-        <target state="translated">OAuth avots</target>
+        <source>OAuth Source <x id="0" equiv-text="${this.source.name}"/></source>
+        <target>OAuth avots <x id="0" equiv-text="${this.source.name}"/></target>
       </trans-unit>
       <trans-unit id="se09d055771f3a11d">
         <source>Generic OpenID Connect</source>
@@ -2854,8 +2859,8 @@ doesn't pass when either or both of the selected options are equal or above the 
         <target state="translated">Ļaujiet lietotājiem izmantot lietotnes, balstoties uz īpašībām, ievērojiet paroles kritērijus un selektīvi piemērojiet darbības stadijas.</target>
       </trans-unit>
       <trans-unit id="se16ac750b81fa93d">
-        <source>Assigned to </source>
-        <target state="translated">Piedēvēts</target>
+        <source>Assigned to <x id="0" equiv-text="${item.boundTo}"/> object(s).</source>
+        <target>Piešķirts <x id="0" equiv-text="${item.boundTo}"/>object(s).</target>
       </trans-unit>
       <trans-unit id="s5a48d5171e1a1522">
         <source>Warning: Policy is not assigned.</source>
@@ -2954,24 +2959,24 @@ doesn't pass when either or both of the selected options are equal or above the 
         <target state="translated">Derīgs 360 dienas, pēc tam parole automātiski tiks nomainīta. Jūs varat nokopēt paroli no marķieru saraksta.</target>
       </trans-unit>
       <trans-unit id="s4414164d120de61a">
-        <source>The following objects use </source>
-        <target state="translated">Turpmākie objekti izmanto</target>
+        <source>The following objects use <x id="0" equiv-text="${objName}"/></source>
+        <target>Šie objekti izmanto <x id="0" equiv-text="${objName}"/></target>
       </trans-unit>
       <trans-unit id="s92e241c9f3c101a2">
         <source>connecting object will be deleted</source>
         <target state="translated">Savienotais objekts tiks dzēsts</target>
       </trans-unit>
       <trans-unit id="se6a13beff646557b">
-        <source>Successfully updated </source>
-        <target state="translated">Atjaunināšana veiksmīgi pabeigta</target>
+        <source>Successfully updated <x id="0" equiv-text="${this.objectLabel} ${this.obj?.name}"/></source>
+        <target state="translated">Atjaunināšana veiksmīgi pabeigta <x id="0" equiv-text="${this.objectLabel} ${this.obj?.name}"/></target>
       </trans-unit>
       <trans-unit id="s14401ff4a0cba208">
-        <source>Failed to update </source>
-        <target state="translated">Atjaunināšana neizdevās</target>
+        <source>Failed to update <x id="0" equiv-text="${this.objectLabel}"/>: <x id="1" equiv-text="${pluckErrorDetail(parsedError)}"/></source>
+        <target state="translated">Atjaunināšana neizdevās <x id="0" equiv-text="${this.objectLabel}"/>: <x id="1" equiv-text="${pluckErrorDetail(parsedError)}"/></target>
       </trans-unit>
       <trans-unit id="sa95a538bfbb86111">
-        <source>Are you sure you want to update </source>
-        <target state="translated">Vai esat pārliecināts, ka vēlaties atjaunināt?</target>
+        <source>Are you sure you want to update <x id="0" equiv-text="${this.objectLabel}"/> "<x id="1" equiv-text="${this.obj?.name}"/>"?</source>
+        <target state="translated">Vai esat pārliecināts, ka vēlaties atjaunināt <x id="0" equiv-text="${this.objectLabel}"/> "<x id="1" equiv-text="${this.obj?.name}"/>"?</target>
       </trans-unit>
       <trans-unit id="sc92d7cfb6ee1fec6">
         <source>Successfully updated password.</source>
@@ -3002,8 +3007,8 @@ doesn't pass when either or both of the selected options are equal or above the 
         <target state="translated">Noņemt lietotāju(us)</target>
       </trans-unit>
       <trans-unit id="s5d7748b1d2363478">
-        <source>Are you sure you want to remove the selected users from the group </source>
-        <target state="translated">Vai tiešām vēlaties noņemt atlasītos lietotājus no grupas</target>
+        <source>Are you sure you want to remove the selected users from the group <x id="0" equiv-text="${this.targetGroup?.name}"/>?</source>
+        <target state="translated">Vai tiešām vēlaties noņemt atlasītos lietotājus no grupas <x id="0" equiv-text="${this.targetGroup?.name}"/>?</target>
       </trans-unit>
       <trans-unit id="sea4f08110bb8f15d">
         <source>Remove</source>
@@ -3106,8 +3111,8 @@ doesn't pass when either or both of the selected options are equal or above the 
         <target state="translated">Sakne</target>
       </trans-unit>
       <trans-unit id="s3616cc78631f5893">
-        <source>Warning: You're about to delete the user you're logged in as (</source>
-        <target state="translated">Brīdinājums: Jūs esat par to, lai izdzēstu lietotāju, ar kuru esat pieslēdzies (</target>
+        <source>Warning: You're about to delete the user you're logged in as (<x id="0" equiv-text="${shouldShowWarning.username}"/>). Proceed at your own risk.</source>
+        <target state="translated">Brīdinājums: Jūs esat par to, lai izdzēstu lietotāju, ar kuru esat pieslēdzies (<x id="0" equiv-text="${shouldShowWarning.username}"/>). Turpiniet uz jūsu riska.</target>
       </trans-unit>
       <trans-unit id="s510c7add9e24c306">
         <source>Hide deactivated user</source>
@@ -3130,8 +3135,8 @@ doesn't pass when either or both of the selected options are equal or above the 
         <target state="translated">Izņemt no grupas(iem)</target>
       </trans-unit>
       <trans-unit id="sb4c9ed2a487b238f">
-        <source>Are you sure you want to remove user </source>
-        <target state="translated">Vai esat pārliecināts, ka vēlaties noņemt lietotāju?</target>
+        <source>Are you sure you want to remove user <x id="0" equiv-text="${this.targetUser?.username}"/> from the following groups?</source>
+        <target state="translated">Vai esat pārliecināts, ka vēlaties noņemt lietotāju <x id="0" equiv-text="${this.targetUser?.username}"/> no šīm grupām?</target>
       </trans-unit>
       <trans-unit id="s964f6725aeb7662f">
         <source>Add Group</source>
@@ -4202,8 +4207,8 @@ doesn't pass when either or both of the selected options are equal or above the 
         <target state="translated">Automātiska importēšana</target>
       </trans-unit>
       <trans-unit id="s77299a9d3dd932cd">
-        <source>Successfully imported </source>
-        <target state="translated">Importēšana veiksmīga</target>
+        <source>Successfully imported <x id="0" equiv-text="${res.count}"/> devices.</source>
+        <target state="translated">Importēšana veiksmīga <x id="0" equiv-text="${res.count}"/> ierīcēm.</target>
       </trans-unit>
       <trans-unit id="s6a615f6165ef01c9">
         <source>Start automatic import</source>
@@ -4451,8 +4456,8 @@ doesn't pass when either or both of the selected options are equal or above the 
         <target state="translated">Notikumu žurnāls</target>
       </trans-unit>
       <trans-unit id="s65d67612999165e9">
-        <source>Event </source>
-        <target state="translated">Pasākums</target>
+        <source>Event <x id="0" equiv-text="${this.event.pk}"/></source>
+        <target state="translated">Notikums <x id="0" equiv-text="${this.event.pk}"/></target>
       </trans-unit>
       <trans-unit id="s455de2f740b073fd">
         <source>Event info</source>
@@ -4656,8 +4661,8 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Brīdinājums: Authentik domēns nav konfigurēts, autentifikācija nedarbosies.</target>
       </trans-unit>
       <trans-unit id="sbf5f4c5ba679e847">
-        <source>Logging in via </source>
-        <target state="translated">Pierakstīties ar</target>
+        <source>Logging in via <x id="0" equiv-text="${item.config.authentik_host}"/>.</source>
+        <target state="translated">Pierakstīties ar <x id="0" equiv-text="${item.config.authentik_host}"/>.</target>
       </trans-unit>
       <trans-unit id="s59b6028f19d15cda">
         <source>No integration active</source>
@@ -4808,8 +4813,8 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Pārvalda Authentik (Atklāts)</target>
       </trans-unit>
       <trans-unit id="sef50d248448e0df1">
-        <source>Yes (</source>
-        <target state="translated">Jā</target>
+        <source>Yes (<x id="0" equiv-text="${item.privateKeyType?.toUpperCase()}"/>)</source>
+        <target state="translated">Jā (<x id="0" equiv-text="${item.privateKeyType?.toUpperCase()}"/>)</target>
       </trans-unit>
       <trans-unit id="s09205907b5b56cda">
         <source>No</source>
@@ -5020,8 +5025,8 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Izmantot drošības atslēgu</target>
       </trans-unit>
       <trans-unit id="s670ad066cc0e50a3">
-        <source>Login to continue to </source>
-        <target state="translated">Pierakstieties, lai turpinātu lietot</target>
+        <source>Login to continue to <x id="0" equiv-text="${this.challenge.applicationPre}"/>.</source>
+        <target state="translated">Pierakstieties, lai turpinātu lietot <x id="0" equiv-text="${this.challenge.applicationPre}"/>.</target>
       </trans-unit>
       <trans-unit id="scf5ce91bfba10a61">
         <source>Please enter your password</source>
@@ -5252,12 +5257,12 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Darbojas ar Authentik</target>
       </trans-unit>
       <trans-unit id="s7fa4e5e409d43573">
-        <source>Error creating credential: </source>
-        <target state="translated">Kļūda, veidojot akreditācijas datus:</target>
+        <source>Error creating credential: <x id="0" equiv-text="${err}"/></source>
+        <target state="translated">Kļūda, veidojot akreditācijas datus: <x id="0" equiv-text="${err}"/></target>
       </trans-unit>
       <trans-unit id="s9d95f09deb601f34">
-        <source>Server validation of credential failed: </source>
-        <target state="translated">Servera akreditācijas datu validācija neizdevās:</target>
+        <source>Server validation of credential failed: <x id="0" equiv-text="${err}"/></source>
+        <target state="translated">Servera akreditācijas datu validācija neizdevās: <x id="0" equiv-text="${err}"/></target>
       </trans-unit>
       <trans-unit id="s3fb39fc45e840f78">
         <source>Refer to documentation</source>
@@ -5316,8 +5321,8 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Avots veiksmīgi atvienots</target>
       </trans-unit>
       <trans-unit id="s67dedada007d4067">
-        <source>Failed to disconnected source: </source>
-        <target state="translated">Neizdevās atvienot avotu:</target>
+        <source>Failed to disconnected source: <x id="0" equiv-text="${pluckErrorDetail(parsedError)}"/></source>
+        <target state="translated">Neizdevās atvienot avotu: <x id="0" equiv-text="${pluckErrorDetail(parsedError)}"/></target>
       </trans-unit>
       <trans-unit id="sd2208cd1a767644b">
         <source>Disconnect</source>
@@ -5328,8 +5333,8 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Savienoties</target>
       </trans-unit>
       <trans-unit id="sababff57115130a0">
-        <source>Error: unsupported source settings: </source>
-        <target state="translated">Kļūda: neatbalstīts avota iestatījums:</target>
+        <source>Error: unsupported source settings: <x id="0" equiv-text="${source.component}"/></source>
+        <target state="translated">Kļūda: neatbalstīts avota iestatījums: <x id="0" equiv-text="${source.component}"/></target>
       </trans-unit>
       <trans-unit id="sd1031bddc66dc495">
         <source>Connect your user account to the services listed below, to allow you to login using the service instead of traditional credentials.</source>
@@ -5524,16 +5529,16 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Prognozēt iekšējos lietotājus</target>
       </trans-unit>
       <trans-unit id="sde9a3f41977ec1f8">
-        <source>Estimated user count one year from now based on </source>
-        <target state="translated">Paredzētais lietotāju skaits pēc gada, pamatojoties uz</target>
+        <source>Estimated user count one year from now based on <x id="0" equiv-text="${this.forecast?.internalUsers}"/> current internal users and <x id="1" equiv-text="${this.forecast?.forecastedInternalUsers}"/> forecasted internal users.</source>
+        <target state="translated">Paredzētais lietotāju skaits pēc gada, pamatojoties uz <x id="0" equiv-text="${this.forecast?.internalUsers}"/> esošajiem iekšējiem lietotājiem un <x id="1" equiv-text="${this.forecast?.forecastedInternalUsers}"/> paredzamajiem iekšējiem lietotājiem.</target>
       </trans-unit>
       <trans-unit id="s4557b6b9da258643">
         <source>Forecast external users</source>
         <target state="translated">Prognozēt ārējos lietotājus</target>
       </trans-unit>
       <trans-unit id="sf52479d6daa0a4a8">
-        <source>Estimated user count one year from now based on </source>
-        <target state="translated">Paredzamais lietotāju skaits pēc gada, pamatojoties uz</target>
+        <source>Estimated user count one year from now based on <x id="0" equiv-text="${this.forecast?.externalUsers}"/> current external users and <x id="1" equiv-text="${this.forecast?.forecastedExternalUsers}"/> forecasted external users.</source>
+        <target state="translated">Paredzamais lietotāju skaits pēc gada, pamatojoties uz <x id="0" equiv-text="${this.forecast?.externalUsers}"/> esošajiem ārējiem lietotājiem un <x id="1" equiv-text="${this.forecast?.forecastedExternalUsers}"/> paredzamajiem ārējiem lietotājiem.</target>
       </trans-unit>
       <trans-unit id="s6196153c4b0c1ea0">
         <source>Install</source>
@@ -5632,12 +5637,12 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Ģenerētā tokena garums. Var palielināt, lai uzlabotu drošību.</target>
       </trans-unit>
       <trans-unit id="s0dd031b58ed4017c">
-        <source>Internal: </source>
-        <target state="translated">Iekšējais</target>
+        <source>Internal: <x id="0" equiv-text="${item.internalUsers}"/></source>
+        <target state="translated">Iekšējie: <x id="0" equiv-text="${item.internalUsers}"/></target>
       </trans-unit>
       <trans-unit id="s57b07e524f8f5c2a">
-        <source>External: </source>
-        <target state="translated">Ārējs:</target>
+        <source>External: <x id="0" equiv-text="${item.externalUsers}"/></source>
+        <target state="translated">Ārējie: <x id="0" equiv-text="${item.externalUsers}"/></target>
       </trans-unit>
       <trans-unit id="s7f68101a50f526ee">
         <source>Statically deny the flow. To use this stage effectively, disable *Evaluate when flow is planned* on the respective binding.</source>
@@ -5904,8 +5909,8 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Rolam nav skatīšanās atļaujas, tāpēc aprakstu nevar iegūt.</target>
       </trans-unit>
       <trans-unit id="s7e796fe83982863f">
-        <source>Role </source>
-        <target state="translated">Loma</target>
+        <source>Role <x id="0" equiv-text="${this._role?.name || &quot;&quot;}"/></source>
+        <target state="translated">Loma <x id="0" equiv-text="${this._role?.name || &quot;&quot;}"/></target>
       </trans-unit>
       <trans-unit id="s526e2c66bd51ff5f">
         <source>Role Info</source>
@@ -6028,12 +6033,12 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">4: Ļoti neuzmināms: spēcīga aizsardzība pret ārpuslīnijas lēnajām hash uzbrukumu metodēm. (minējumi &gt;= 10^10)</target>
       </trans-unit>
       <trans-unit id="s3d2a8b86a4f5a810">
-        <source>Successfully created user and added to group </source>
-        <target state="translated">Lietotājs veiksmīgi izveidots un pievienots grupai</target>
+        <source>Successfully created user and added to group <x id="0" equiv-text="${this.group.name}"/></source>
+        <target state="translated">Lietotājs veiksmīgi izveidots un pievienots grupai <x id="0" equiv-text="${this.group.name}"/></target>
       </trans-unit>
       <trans-unit id="s824e0943a7104668">
-        <source>This user will be added to the group "</source>
-        <target state="translated">Šis lietotājs tiks pievienots grupai &amp;quot;</target>
+        <source>This user will be added to the group "<x id="0" equiv-text="${this.targetGroup.name}"/>".</source>
+        <target state="translated">Šis lietotājs tiks pievienots grupai "<x id="0" equiv-text="${this.targetGroup.name}"/>".</target>
       </trans-unit>
       <trans-unit id="s62e7f6ed7d9cb3ca">
         <source>Pretend user exists</source>
@@ -6216,12 +6221,12 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">RAC</target>
       </trans-unit>
       <trans-unit id="s28b99b59541f54ca">
-        <source>Connection failed after </source>
-        <target state="translated">Savienojums neizdevās pēc</target>
+        <source>Connection failed after <x id="0" equiv-text="${this.connectionAttempt}"/> attempts.</source>
+        <target state="translated">Savienojums neizdevās pēc <x id="0" equiv-text="${this.connectionAttempt}"/> mēģinājumiem.</target>
       </trans-unit>
       <trans-unit id="s7c7d956418e1c8c8">
-        <source>Re-connecting in </source>
-        <target state="translated">Atjauno savienojumu pēc</target>
+        <source>Re-connecting in <x id="0" equiv-text="${Math.max(1, delay / 1000)}"/> second(s).</source>
+        <target state="translated">Atjauno savienojumu pēc <x id="0" equiv-text="${Math.max(1, delay / 1000)}"/> sekundēm.</target>
       </trans-unit>
       <trans-unit id="sfc003381f593d943">
         <source>Connecting...</source>
@@ -6340,18 +6345,19 @@ Bindings to groups/users are checked against the user of the event.</source>
         <source>The user's UPN, if set (otherwise an empty string)</source>
         <target state="translated">Lietotāja UPN, ja iestatīts (pretējā gadījumā tukša virkne)</target>
       </trans-unit>
-      <trans-unit id="h4963ed14d7e239a9">
-        <source>An attribute path like
-                                    </source>
-        <target state="translated">Atribūtu ceļš kā</target>
-      </trans-unit>
+<trans-unit id="h4963ed14d7e239a9">
+  <source>An attribute path like
+                                    <x id="0" equiv-text="&lt;code&gt;"/>attributes.something.avatar<x id="1" equiv-text="&lt;/code&gt;"/>, which can be used in
+                                    combination with the file field to allow users to upload custom
+                                    avatars for themselves.</source>
+  <target state="translated">Atribūtu ceļš kā <x id="0" equiv-text="&lt;code&gt;"/>attributes.something.avatar<x id="1" equiv-text="&lt;/code&gt;"/>, which can be used in
+                                    combination with the file field to allow users to upload custom
+                                    avatars for themselves.</target>
+</trans-unit>
+
       <trans-unit id="s4c80c34a67a6f1c9">
         <source>Multiple values can be set, comma-separated, and authentik will fallback to the next mode when no avatar could be found.</source>
         <target state="translated">Vairākas vērtības var noteikt, tās atdalot ar komatiem, un authentik pāries uz nākamo režīmu, ja nevar atrast nevienu avatāru.</target>
-      </trans-unit>
-      <trans-unit id="h2fafcc3ebafea2f8">
-        <source>For example, setting this to </source>
-        <target state="translated">Piemēram, iestatot šo uz</target>
       </trans-unit>
       <trans-unit id="s5faec5eb5faf62ac">
         <source>Allow users to change name</source>
@@ -6621,10 +6627,6 @@ Bindings to groups/users are checked against the user of the event.</source>
         <source>Enter the email associated with your account, and we'll send you a link to reset your password.</source>
         <target state="translated">Ievadiet ar jūsu kontu saistīto e-pastu, un mēs jums nosūtīsim saiti paroles atiestatīšanai.</target>
       </trans-unit>
-      <trans-unit id="s06bfe45ffef2cf60">
-        <source>Stage name: </source>
-        <target state="translated">Skatuves nosaukums:</target>
-      </trans-unit>
       <trans-unit id="s90064dd5c4dde2c6">
         <source>Please scan the QR code above using the Microsoft Authenticator, Google Authenticator, or other authenticator apps on your device, and enter the code the device displays below to finish setting up the MFA device.</source>
         <target state="translated">Lūdzu, skanējiet augstāk redzamo QR kodu, izmantojot Microsoft Authenticator, Google Authenticator vai citas autentifikācijas lietotnes savā ierīcē, un ievadiet zemāk redzamo kodu, ko ierīce parāda, lai pabeigtu MFA ierīces iestatīšanu.</target>
@@ -6748,14 +6750,6 @@ Bindings to groups/users are checked against the user of the event.</source>
       <trans-unit id="sebea299e52db4242">
         <source>Algorithm used to generate the private key.</source>
         <target state="translated">Algoritms, kas tiek izmantots privātās atslēgas ģenerēšanai.</target>
-      </trans-unit>
-      <trans-unit id="s21e38ec6ffa2b918">
-        <source>Added ID </source>
-        <target state="translated">Pievienots ID</target>
-      </trans-unit>
-      <trans-unit id="s74918a09ef39ed26">
-        <source>Removed ID </source>
-        <target state="translated">Noņemts ID</target>
       </trans-unit>
       <trans-unit id="s3a20e5d7dd70dcd3">
         <source>Cleared</source>
@@ -7166,8 +7160,8 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">1. Angļu: Krievu</target>
       </trans-unit>
       <trans-unit id="s354405ae02cb262d">
-        <source>Last seen: </source>
-        <target state="translated">Pēdējo reizi redzēts:</target>
+        <source>Last seen: <x id="0" equiv-text="${formatElapsedTime(lastSeen)}"/> (<x id="1" equiv-text="${lastSeen.toLocaleTimeString()}"/>)</source>
+        <target state="translated">Pēdējo reizi redzēts: <x id="0" equiv-text="${formatElapsedTime(lastSeen)}"/> (<x id="1" equiv-text="${lastSeen.toLocaleTimeString()}"/>)</target>
       </trans-unit>
       <trans-unit id="s5aebe06e3ddf6ca9">
         <source>Sign assertions</source>
@@ -7298,20 +7292,20 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Pārbaudīt SCIM servera sertifikātus</target>
       </trans-unit>
       <trans-unit id="sac88482c48453fc8">
-        <source>You've logged out of </source>
-        <target state="translated">Jūs esat atteicies no</target>
+        <source>You've logged out of <x id="0" equiv-text="${this.challenge.applicationName}"/>. You can go back to the overview to launch another application, or log out of your authentik account.</source>
+        <target state="translated">Jūs esat atslēdzies no <x id="0" equiv-text="${this.challenge.applicationName}"/>. Jūs varat atgriesties, lai aplūkotu citas pieejamās lietotnes vai arī lai atvienoties no sava konta.</target>
       </trans-unit>
       <trans-unit id="s3108167b562674e2">
         <source>Go back to overview</source>
         <target state="translated">Atgriezties uz pārskatu</target>
       </trans-unit>
       <trans-unit id="sdb749e793de55478">
-        <source>Log out of </source>
-        <target state="translated">Izrakstīties no</target>
+        <source>Log out of <x id="0" equiv-text="${this.challenge.brandName}"/></source>
+        <target state="translated">Izrakstīties no <x id="0" equiv-text="${this.challenge.brandName}"/></target>
       </trans-unit>
       <trans-unit id="s521681ed1d5ff814">
-        <source>Log back into </source>
-        <target state="translated">Atkārtoti pieslēgties</target>
+        <source>Log back into <x id="0" equiv-text="${this.challenge.applicationName}"/></source>
+        <target state="translated">Atkārtoti pieslēgties <x id="0" equiv-text="${this.challenge.applicationName}"/></target>
       </trans-unit>
       <trans-unit id="sc991a35f5e88d1d3">
         <source>Encryption Key</source>
@@ -7322,8 +7316,8 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Atslēga, kas izmantota žetonu šifrēšanai.</target>
       </trans-unit>
       <trans-unit id="sbfee780fa0a2c83e">
-        <source>Device type </source>
-        <target state="translated">Ierīces veids</target>
+        <source>Device type <x id="0" equiv-text="${device.verboseName}"/> cannot be deleted</source>
+        <target state="translated">Ierīces veids <x id="0" equiv-text="${device.verboseName}"/> nevar tikt izdzēsts</target>
       </trans-unit>
       <trans-unit id="s336936629cdeb3e5">
         <source>Stage used to verify users' browsers using Google Chrome Device Trust. This stage can be used in authentication/authorization flows.</source>
@@ -7334,8 +7328,8 @@ Bindings to groups/users are checked against the user of the event.</source>
         <target state="translated">Google Verificētās Piekļuves API</target>
       </trans-unit>
       <trans-unit id="s013620384af7c8b4">
-        <source>Device type </source>
-        <target state="translated">Ierīces tips</target>
+        <source>Device type <x id="0" equiv-text="${device.verboseName}"/> cannot be edited</source>
+        <target state="translated">Ierīces tips <x id="0" equiv-text="${device.verboseName}"/> nevar tikt labots</target>
       </trans-unit>
       <trans-unit id="s4347135696fc7cde">
         <source>Advanced flow settings</source>
@@ -7504,10 +7498,6 @@ Bindings to groups/users are checked against the user of the event.</source>
       <trans-unit id="s92205c10ba1f0f4c">
         <source>This option configures the footer links on the flow executor pages. The URL is limited to web and mail addresses. If the name is left blank, the URL will be shown.</source>
         <target state="translated">Šī opcija konfigurē kājines saites plūsmas izpildītāja lapās. URL ir ierobežots uz tīmekļa un e-pasta adresēm. Ja nosaukums ir atstāts tukšs, tiks parādīts URL.</target>
-      </trans-unit>
-      <trans-unit id="s66f572bec2bde9c4">
-        <source>External applications that use </source>
-        <target state="translated">Ārējās lietotnes, kas izmanto</target>
       </trans-unit>
       <trans-unit id="s58bec0ecd4f3ccd4">
         <source>Strict</source>
@@ -7745,10 +7735,6 @@ Bindings to groups/users are checked against the user of the event.</source>
         <source>Create with wizard</source>
         <target state="translated">Izveidot, izmantojot vedni</target>
       </trans-unit>
-      <trans-unit id="s080af72866b69b3d">
-        <source>Bind existing </source>
-        <target state="translated">Savienot esošo</target>
-      </trans-unit>
       <trans-unit id="sa36117e97f49c86e">
         <source>Successfully updated entitlement.</source>
         <target state="translated">Tiesības veiksmīgi atjauninātas.</target>
@@ -7800,17 +7786,6 @@ Bindings to groups/users are checked against the user of the event.</source>
       <trans-unit id="s82cced87e15e0665">
         <source>Worker with incorrect version connected.</source>
         <target state="translated">Darbinieks ar nepareizu versiju ir pievienojies.</target>
-      </trans-unit>
-      <trans-unit id="ha8e91858b300a3b7">
-        <source>(Format: </source>
-        <target state="translated">1. Angļu: (Formāts:
-2. Franču: (Format:
-
-Formāts:</target>
-      </trans-unit>
-      <trans-unit id="hbe8e6353371ecb22">
-        <source>(Format: </source>
-        <target state="translated">Diemžēl Jūsu pieprasījumam nav dotā teksta, lai tulkot par \"Authentik\", identitātes nodrošinātājs un vienotās pierakstīšanās risinājumu. Vai būtu iespējams sniegt tekstu, lai es to varētu tulkot?</target>
       </trans-unit>
       <trans-unit id="se8dd47dfaf01d6c9">
         <source>Key used to sign the events.</source>
@@ -7876,10 +7851,6 @@ Formāts:</target>
         <source>OpenSSL</source>
         <target state="translated">OpenSSL</target>
       </trans-unit>
-      <trans-unit id="s1381314790b50b1f">
-        <source>A newer version (</source>
-        <target state="translated">Jauna versija (</target>
-      </trans-unit>
       <trans-unit id="s61ffea061fae0af4">
         <source>No notifications found.</source>
         <target state="translated">Nav atrasti paziņojumi.</target>
@@ -7888,10 +7859,6 @@ Formāts:</target>
         <source>You don't have any notifications currently.</source>
         <target state="translated">Pašlaik jums nav paziņojumu.</target>
       </trans-unit>
-      <trans-unit id="s358e08de4fbebf51">
-        <source>Version </source>
-        <target state="translated">Versija</target>
-      </trans-unit>
       <trans-unit id="sfb95ad8c25db95ba">
         <source>Last password change</source>
         <target state="translated">Pēdējā paroles maiņa</target>
@@ -7899,15 +7866,6 @@ Formāts:</target>
       <trans-unit id="s37e1bad4bf0e9241">
         <source>Evaluate policies before the Stage is presented to the user.</source>
         <target state="translated">Novērtējiet politikas pirms skatuves tiek prezentēta lietotājam.</target>
-      </trans-unit>
-      <trans-unit id="h8c1aa2d523f94f36">
-        <source>Can be in the format of </source>
-        <target state="translated">Var būt formātā</target>
-      </trans-unit>
-      <trans-unit id="h3ac79dc5cc553329">
-        <source>When using an external logging solution for archiving, this can be
-                                set to </source>
-        <target state="translated">Izmantojot ārēju žurnālfailu risinājumu arhivēšanai, to var iestatīt uz</target>
       </trans-unit>
       <trans-unit id="sc92905d14a9421f3">
         <source>Idle</source>
@@ -8050,8 +8008,8 @@ Formāts:</target>
         <target state="translated">Lūdzu, ievadiet kodu, ko saņēmāt pa e-pastu.</target>
       </trans-unit>
       <trans-unit id="s1d64dba9bb8b284d">
-        <source>A code has been sent to you via email</source>
-        <target state="translated">Kods tika nosūtīts jums pa e-pastu</target>
+        <source>A code has been sent to you via email<x id="0" equiv-text="${email ? ` ${email}` : &quot;&quot;}"/></source>
+        <target state="translated">Kods tika nosūtīts jums pa e-pastu <x id="0" equiv-text="${email ? ` ${email}` : &quot;&quot;}"/></target>
       </trans-unit>
       <trans-unit id="s833cfe815918c143">
         <source>Tokens sent via email.</source>
