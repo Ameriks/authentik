@@ -360,10 +360,6 @@
         <target>Uzsaukumā no
         <x id="0" equiv-text="${event.user.on_behalf_of.username}"/></target>
       </trans-unit>
-      <trans-unit id="saf63a04c86018698">
-        <source>-</source>
-        <target state="translated">I'm sorry, but there is no specific text provided in either English or French for translation. Could you please provide the texts you want translated into Latvian?</target>
-      </trans-unit>
       <trans-unit id="s1b448a4ea79d4eef">
         <source>No Events found.</source>
         <target state="translated">Nav atrasts neviens notikums.</target>
