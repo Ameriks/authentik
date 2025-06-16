@@ -21,7 +21,8 @@ COPY ./web /work/web/
 COPY ./website /work/website/
 COPY ./gen-ts-api /work/web/node_modules/@goauthentik/api
 
-RUN npm run build && \
+RUN npm run build-locales:build && \
+    npm run build && \
     npm run build:sfe
 
 # Stage 2: Build go proxy

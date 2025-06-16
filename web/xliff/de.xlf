@@ -9252,6 +9252,12 @@ Bindings to groups/users are checked against the user of the event.</source>
 <trans-unit id="s04bb32ec9f359507">
   <source>Additional Group DN</source>
 </trans-unit>
+<trans-unit id="sd3dcb76f7b28adb8">
+  <source>Latvian</source>
+</trans-unit>
+<trans-unit id="s1ef26142c029e5ea">
+  <source>A verification token has been sent to your configured email address</source>
+</trans-unit>
     </body>
   </file>
 </xliff>

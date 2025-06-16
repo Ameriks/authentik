@@ -1,4 +1,5 @@
 import { globalAK } from "@goauthentik/common/global";
+import { getCookie } from "@goauthentik/common/utils";
 
 import { LOCALES as RAW_LOCALES, enLocale } from "./definitions";
 import { AkLocale } from "./types";
@@ -32,7 +33,11 @@ export function findSupportedLocale(candidates: string[]) {
 
 export function localeCodeFromUrl(param = "locale") {
     const url = new URL(window.location.href);
-    return url.searchParams.get(param) || "";
+    return url.searchParams.get(param) || url.searchParams.get("lang") || "";
+}
+
+export function localeCodeFromCookie() {
+    return getCookie("authentik_language") || "";
 }
 
 // Get all locales we can, in order
@@ -48,6 +53,7 @@ const isLocaleCandidate = (v: unknown): v is string =>
 export function autoDetectLanguage(userReq = TOMBSTONE, brandReq = TOMBSTONE): string {
     const localeCandidates: string[] = [
         localeCodeFromUrl("locale"),
+        localeCodeFromCookie(),
         userReq,
         window.navigator?.language ?? TOMBSTONE,
         brandReq,

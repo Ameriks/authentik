@@ -247,6 +247,8 @@ MIDDLEWARE = [
     "authentik.core.middleware.AuthenticationMiddleware",
     "authentik.core.middleware.RequestIDMiddleware",
     "authentik.brands.middleware.BrandMiddleware",
+    "authentik.root.locale_middleware.LanguageParameterMiddleware",
+    "django.middleware.locale.LocaleMiddleware",
     "authentik.events.middleware.AuditMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -332,6 +334,26 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
 LANGUAGE_CODE = "en-us"
+
+# Supported languages based on available locale directories
+LANGUAGES = [
+    ('en', 'English'),
+    ('de', 'Deutsch'),
+    ('es', 'Español'),
+    ('fi', 'Suomi'),
+    ('fr', 'Français'),
+    ('it', 'Italiano'),
+    ('ko', '한국어'),
+    ('lv', 'Latviešu'),
+    ('nl', 'Nederlands'),
+    ('pl', 'Polski'),
+    ('pt', 'Português'),
+    ('pt-br', 'Português (Brasil)'),
+    ('ru', 'Русский'),
+    ('tr', 'Türkçe'),
+    ('zh-hans', '中文 (简体)'),
+    ('zh-hant', '中文 (繁體)'),
+]
 
 TIME_ZONE = "UTC"
 

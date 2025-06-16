@@ -11,6 +11,15 @@ import type { LocaleGetter, LocaleSetter } from "./configureLocale";
 import { DEFAULT_LOCALE, autoDetectLanguage, getBestMatchLocale } from "./helpers";
 
 /**
+ * Set a cookie value
+ */
+function setCookie(name: string, value: string, days: number = 365) {
+    const expires = new Date();
+    expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`;
+}
+
+/**
  * A component to manage your locale settings.
  *
  * ## Details
@@ -79,6 +88,8 @@ export class LocaleContext extends WithBrandConfig(AKElement) {
         locale.locale().then(() => {
             console.debug(`authentik/locale: Setting Locale to ${locale.label()} (${locale.code})`);
             this.setLocale(locale.code).then(() => {
+                // Set the language cookie for persistence
+                setCookie("authentik_language", locale.code);
                 window.setTimeout(this.notifyApplication, 0);
             });
         });
