@@ -21,6 +21,8 @@ AUTHENTIK_SOURCES_OAUTH_TYPES = [
     "authentik.sources.oauth.types.reddit",
     "authentik.sources.oauth.types.twitch",
     "authentik.sources.oauth.types.twitter",
+    "authentik.sources.oauth.types.eklase",
+    "authentik.sources.oauth.types.eparaksts",
 ]
 
 

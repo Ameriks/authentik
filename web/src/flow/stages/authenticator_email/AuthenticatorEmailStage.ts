@@ -61,7 +61,7 @@ export class AuthenticatorEmailStage extends BaseStage<
                         <input
                             type="email"
                             name="email"
-                            placeholder="${msg("Please enter your email address.")}"
+                            placeholder="!!!${msg("Please enter your email address.")}"
                             autofocus=""
                             autocomplete="email"
                             class="pf-c-form-control"

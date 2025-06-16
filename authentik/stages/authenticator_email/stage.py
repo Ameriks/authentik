@@ -77,8 +77,8 @@ class AuthenticatorEmailStageView(ChallengeStageView):
         pending_user = self.get_pending_user()
 
         stage: AuthenticatorEmailStage = self.executor.current_stage
-        if EmailDevice.objects.filter(Q(email=email), stage=stage.pk).exists():
-            raise ValidationError(_("Invalid email"))
+        # if EmailDevice.objects.filter(Q(email=email), stage=stage.pk).exists():
+            # raise ValidationError(_("Invalid email"))
 
         device: EmailDevice = self.request.session[SESSION_KEY_EMAIL_DEVICE]
 
@@ -145,7 +145,11 @@ class AuthenticatorEmailStageView(ChallengeStageView):
 
         stage: AuthenticatorEmailStage = self.executor.current_stage
         if SESSION_KEY_EMAIL_DEVICE not in self.request.session:
-            device = EmailDevice(user=user, confirmed=False, stage=stage, name="Email Device")
+
+            device = EmailDevice.objects.filter(Q(email=user.email)).first()
+            if not device:
+                device = EmailDevice(user=user, confirmed=False, stage=stage, name="Email Device")
+
             valid_secs: int = timedelta_from_string(stage.token_expiry).total_seconds()
             device.generate_token(valid_secs=valid_secs, commit=False)
             self.request.session[SESSION_KEY_EMAIL_DEVICE] = device

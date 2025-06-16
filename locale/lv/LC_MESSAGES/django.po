@@ -1,0 +1,4690 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: email@example.com\n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: 2024-01-01 12:00+0000\n"
+"Last-Translator: AI Translator\n"
+"Language-Team: Latvian\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ChatGPT-translated from EN+FR
+#: authentik/admin/models.py
+msgid "Version history"
+msgstr "Versiju vēsture"
+
+# ChatGPT-translated from EN+FR
+#: authentik/admin/tasks.py
+msgid "New version {version} available!"
+msgstr "Ir pieejama jauna versija {version}!"
+
+# ChatGPT-translated from EN+FR
+#: authentik/api/schema.py
+msgid "Generic API Error"
+msgstr "Vispārēja API kļūda"
+
+# ChatGPT-translated from EN+FR
+#: authentik/api/schema.py
+msgid "Validation Error"
+msgstr "Validācijas kļūda"
+
+# ChatGPT-translated from EN+FR
+#: authentik/blueprints/api.py
+msgid "Blueprint file does not exist"
+msgstr "Plāna fails neeksistē"
+
+# ChatGPT-translated from EN+FR
+#: authentik/blueprints/api.py
+msgid "Failed to validate blueprint"
+msgstr "Neizdevās pārbaudīt plānu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/blueprints/api.py
+msgid "Either path or content must be set."
+msgstr "Vai nu ceļš, vai saturs ir jānorāda."
+
+# ChatGPT-translated from EN+FR
+#: authentik/blueprints/models.py
+msgid "Managed by authentik"
+msgstr "Pārvaldīts ar Authentik"
+
+# ChatGPT-translated from EN+FR
+#: authentik/blueprints/models.py
+msgid ""
+"Objects that are managed by authentik. These objects are created and updated"
+" automatically. This flag only indicates that an object can be overwritten "
+"by migrations. You can still modify the objects via the API, but expect "
+"changes to be overwritten in a later update."
+msgstr ""
+"Objekti, kurus pārvalda authentik. Šie objekti tiek izveidoti un atjaunināti"
+" automātiski. Šī atzīme tikai norāda, ka migrācijas laikā objektu var "
+"pārrakstīt. Jūs joprojām varat modificēt objektus, izmantojot API, taču "
+"rēķinieties, ka vēlākā atjauninājumā šīs izmaiņas var tikt pārrakstītas."
+
+# ChatGPT-translated from EN+FR
+#: authentik/blueprints/models.py
+msgid "Blueprint Instance"
+msgstr "Plāna instances"
+
+# ChatGPT-translated from EN+FR
+#: authentik/blueprints/models.py
+msgid "Blueprint Instances"
+msgstr "Plāna instances"
+
+# ChatGPT-translated from EN+FR
+#: authentik/blueprints/v1/exporter.py
+msgid "authentik Export - {date}"
+msgstr "authentik Eksports - {date}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/blueprints/v1/tasks.py authentik/crypto/tasks.py
+msgid "Successfully imported {count} files."
+msgstr "Veiksmīgi importēti {count} faili."
+
+# ChatGPT-translated from EN+FR
+#: authentik/brands/models.py
+msgid ""
+"Domain that activates this brand. Can be a superset, i.e. `a.b` for `aa.b` "
+"and `ba.b`"
+msgstr ""
+"Domēns, kas aktivizē šo zīmolu. Var būt superkopums, piemēram, \"a.b\" "
+"priekš \"aa.b\" un \"ba.b\"."
+
+# ChatGPT-translated from EN+FR
+#: authentik/brands/models.py
+msgid ""
+"When set, external users will be redirected to this application after "
+"authenticating."
+msgstr ""
+"Kad aktivizēts, ārējie lietotāji pēc autentifikācijas tiks novirzīti uz šo "
+"lietotni."
+
+# ChatGPT-translated from EN+FR
+#: authentik/brands/models.py
+msgid "Web Certificate used by the authentik Core webserver."
+msgstr "Tīmekļa sertifikāts, ko izmanto authentik Core tīmekļa serveris."
+
+# ChatGPT-translated from EN+FR
+#: authentik/brands/models.py
+msgid "Certificates used for client authentication."
+msgstr "Sertifikāti, kas tiek izmantoti klientu autentifikācijai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/brands/models.py
+msgid "Brand"
+msgstr "Zīmols"
+
+# ChatGPT-translated from EN+FR
+#: authentik/brands/models.py
+msgid "Brands"
+msgstr "Zīmoli"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/api/application_entitlements.py
+msgid "User does not have access to application."
+msgstr "Lietotājam nav piekļuves lietotnei."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/api/devices.py
+msgid "Extra description not available"
+msgstr "Papildu apraksts nav pieejams"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/api/groups.py
+msgid "Cannot set group as parent of itself."
+msgstr "Nevar iestatīt grupu par tās pašas vecāku grupu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/api/providers.py
+msgid ""
+"When not set all providers are returned. When set to true, only backchannel "
+"providers are returned. When set to false, backchannel providers are "
+"excluded"
+msgstr ""
+"Ja nav iestatīts, tiek atgriezti visi nodrošinātāji. Ja iestatīts uz true, "
+"tiek atgriezti tikai backchannel nodrošinātāji. Ja iestatīts uz false, "
+"backchannel nodrošinātāji tiek izslēgti."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/api/transactional_applications.py
+msgid "User lacks permission to create {model}"
+msgstr "Lietotājam trūkst atļaujas izveidot {modeli}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/api/users.py
+msgid "No leading or trailing slashes allowed."
+msgstr "Nav atļautas sākuma vai beigu slīpsvītras."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/api/users.py
+msgid "No empty segments in user path allowed."
+msgstr "Lietotāja ceļā nav atļautas tukšas daļas."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "name"
+msgstr "vārds"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Users added to this group will be superusers."
+msgstr "Lietotāji, kuri pievienoti šai grupai, būs superlietotāji."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Group"
+msgstr "Grupa"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Groups"
+msgstr "Grupas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Add user to group"
+msgstr "Pievienot lietotāju grupai"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Remove user from group"
+msgstr "Noņemt lietotāju no grupas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Enable superuser status"
+msgstr "Aktivizēt superlietotāja statusu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Disable superuser status"
+msgstr "Atspējot superlietotāja statusu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "User's display name."
+msgstr "Lietotāja rādāmais vārds"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py authentik/providers/oauth2/models.py
+#: authentik/rbac/models.py
+msgid "User"
+msgstr "Lietotājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Users"
+msgstr "Lietotāji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+#: authentik/stages/email/templates/email/password_reset.html
+msgid "Reset Password"
+msgstr "Atiestatīt paroli"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Can impersonate other users"
+msgstr "Var atdarināt citus lietotājus"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py authentik/rbac/models.py
+msgid "Can assign permissions to users"
+msgstr "Var piešķirt atļaujas lietotājiem"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py authentik/rbac/models.py
+msgid "Can unassign permissions from users"
+msgstr "Var noņemt atļaujas no lietotājiem"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Can preview user data sent to providers"
+msgstr "Var priekšskatīt lietotāju datus, kas tiek nosūtīti piegādātājiem"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "View applications the user has access to"
+msgstr "Skatīt lietotājam pieejamās lietotnes"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid ""
+"Flow used for authentication when the associated application is accessed by "
+"an un-authenticated user."
+msgstr ""
+"Plūsma, kas tiek izmantota autentifikācijai, kad saistītajai lietotnei "
+"piekļūst neautentificēts lietotājs."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Flow used when authorizing this provider."
+msgstr "Plūsma, kas izmantota, lai autorizētu šo pakalpojumu sniedzēju."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Flow used ending the session from a provider."
+msgstr "Plūsma, kas izmantota sesijas beigšanai no nodrošinātāja."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid ""
+"Accessed from applications; optional backchannel providers for protocols "
+"like LDAP and SCIM."
+msgstr ""
+"Piekļūst no lietotnēm; pēc izvēles atgriezeniskās saites nodrošinātāji "
+"protokoliem, piemēram, LDAP un SCIM."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Application's display Name."
+msgstr "Lietotnes parādāmais nosaukums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Internal application name, used in URLs."
+msgstr "Iekšējās lietojumprogrammas nosaukums, ko izmanto URL."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Open launch URL in a new browser tab or window."
+msgstr "Atvērt palaišanas URL jaunā pārlūkprogrammas cilnē vai logā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Application"
+msgstr "Lietotne"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Applications"
+msgstr "Lietotnes"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Application Entitlement"
+msgstr "Lietotņu tiesības"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Application Entitlements"
+msgstr "Lietotnes tiesības"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Use the source-specific identifier"
+msgstr "Izmantot avotam specifisko identifikatoru"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid ""
+"Link to a user with identical email address. Can have security implications "
+"when a source doesn't validate email addresses."
+msgstr ""
+"Saistīt ar lietotāju ar identisku e-pasta adresi. Var radīt drošības "
+"problēmas, ja avots e-pasta adreses nevalidē."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid ""
+"Use the user's email address, but deny enrollment when the email address "
+"already exists."
+msgstr ""
+"Izmantojiet lietotāja e-pasta adresi, bet noraidiet reģistrāciju, ja e-pasta"
+" adrese jau pastāv."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid ""
+"Link to a user with identical username. Can have security implications when "
+"a username is used with another source."
+msgstr ""
+"Saite uz lietotāju ar identisku lietotājvārdu. Var radīt drošības riskus, ja"
+" lietotājvārds tiek izmantots ar citu avotu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid ""
+"Use the user's username, but deny enrollment when the username already "
+"exists."
+msgstr ""
+"Izmantot lietotāja lietotājvārdu, bet atteikt reģistrāciju, ja lietotājvārds"
+" jau pastāv."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid ""
+"Link to a group with identical name. Can have security implications when a "
+"group name is used with another source."
+msgstr ""
+"Saite uz grupu ar identisku nosaukumu. Var būt drošības risks, ja grupas "
+"nosaukums tiek izmantots ar citu avotu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Use the group name, but deny enrollment when the name already exists."
+msgstr ""
+"Izmantot grupas nosaukumu, bet atteikt reģistrāciju, ja šis nosaukums jau "
+"pastāv."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Source's display Name."
+msgstr "Avota attēlojuma nosaukums."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Internal source name, used in URLs."
+msgstr "Iekšējais avota nosaukums, ko izmanto URL."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Flow to use when authenticating existing users."
+msgstr "Plūsma, kas jāizmanto esošo lietotāju autentifikācijai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Flow to use when enrolling new users."
+msgstr "Jauno lietotāju reģistrācijas plūsma."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid ""
+"How the source determines if an existing user should be authenticated or a "
+"new user enrolled."
+msgstr ""
+"Kā avots nosaka, vai esošs lietotājs būtu jāautentificē vai jāreģistrē jauns"
+" lietotājs."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid ""
+"How the source determines if an existing group should be used or a new group"
+" created."
+msgstr "Kā avots nosaka, vai izmantot esošu grupu vai izveidot jaunu grupu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Token"
+msgstr "Piekļuves tokens"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Tokens"
+msgstr "Žetoni"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "View token's key"
+msgstr "Skatīt tokena atslēgu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Property Mapping"
+msgstr "Īpašumu kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Property Mappings"
+msgstr "Īpašumu kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "session data"
+msgstr "sesijas dati"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Session"
+msgstr "Sesija"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Sessions"
+msgstr "Sesijas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Authenticated Session"
+msgstr "Autentificēta sesija"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/models.py
+msgid "Authenticated Sessions"
+msgstr "Autentificētas sesijas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/sources/flow_manager.py
+msgid ""
+"Request to authenticate with {source} has been denied. Please authenticate "
+"with the source you've previously signed up with."
+msgstr ""
+"Autentifikācijas pieprasījums ar {source} tika noraidīts. Lūdzu, "
+"autentificējieties ar avotu, kuru iepriekš izmantojāt."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/sources/flow_manager.py
+msgid "Configured flow does not exist."
+msgstr "Konfigurētā plūsma nepastāv."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/sources/flow_manager.py
+msgid "Successfully authenticated with {source}!"
+msgstr "Veiksmīgi autentificēts ar {source}!"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/sources/flow_manager.py
+msgid "Successfully linked {source}!"
+msgstr "Veiksmīgi saistīts {source}!"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/sources/flow_manager.py
+msgid "Source is not configured for enrollment."
+msgstr "Avots nav konfigurēts reģistrācijai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/templates/if/error.html
+msgid "Go home"
+msgstr "Atgriezties sākumlapā"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/templates/login/base_full.html
+#: authentik/flows/templates/if/flow-sfe.html
+msgid "Powered by authentik"
+msgstr "Darbina autentik"
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/views/apps.py authentik/providers/oauth2/views/authorize.py
+#: authentik/providers/oauth2/views/device_init.py
+#: authentik/providers/saml/views/sso.py
+msgid "You're about to sign into %(application)s."
+msgstr "Jūs gatavojaties pieteikties %(application)s."
+
+# ChatGPT-translated from EN+FR
+#: authentik/core/views/interface.py
+msgid "Interface can only be accessed by internal users."
+msgstr "Saskarne ir pieejama tikai iekšējiem lietotājiem."
+
+# ChatGPT-translated from EN+FR
+#: authentik/crypto/api.py
+msgid "Subject-alt name"
+msgstr "Alternatīvais subjekta nosaukums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/crypto/builder.py
+msgid "rsa"
+msgstr "rsa"
+
+# ChatGPT-translated from EN+FR
+#: authentik/crypto/builder.py
+msgid "ecdsa"
+msgstr "ecdsa"
+
+# ChatGPT-translated from EN+FR
+#: authentik/crypto/models.py
+msgid "PEM-encoded Certificate data"
+msgstr "PEM kodējuma sertifikāta dati"
+
+# ChatGPT-translated from EN+FR
+#: authentik/crypto/models.py
+msgid ""
+"Optional Private Key. If this is set, you can use this keypair for "
+"encryption."
+msgstr ""
+"Izvēles privātā atslēga. Ja to iestata, šo atslēgu pāri var izmantot "
+"šifrēšanai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/crypto/models.py
+msgid "Certificate-Key Pair"
+msgstr "Sertifikāta-atslēgu pāris"
+
+# ChatGPT-translated from EN+FR
+#: authentik/crypto/models.py
+msgid "Certificate-Key Pairs"
+msgstr "Sertifikātu-atslēgu pāri"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/api.py
+msgid "Enterprise is required to create/update this object."
+msgstr "Uzņēmums ir nepieciešams, lai izveidotu/atjauninātu šo objektu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/models.py
+msgid "License"
+msgstr "Licence"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/models.py
+msgid "Licenses"
+msgstr "Licences"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/models.py
+msgid "License Usage"
+msgstr "Licences lietošana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/models.py
+msgid "License Usage Records"
+msgstr "Licences izmantošanas uzskaites dati"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/policies/unique_password/models.py
+#: authentik/policies/password/models.py
+msgid "Field key to check, field keys defined in Prompt stages are available."
+msgstr ""
+"Pārbaudāmās lauka atslēgas; lauka atslēgas, kas definētas uzvednēs, ir "
+"pieejamas."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/policies/unique_password/models.py
+msgid "Number of passwords to check against."
+msgstr "Pārbaudāmo paroļu skaits."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/policies/unique_password/models.py
+#: authentik/policies/password/models.py
+msgid "Password not set in context"
+msgstr "Parole nav iestatīta kontekstā"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/policies/unique_password/models.py
+msgid "This password has been used previously. Please choose a different one."
+msgstr "Šī parole jau ir izmantota. Lūdzu, izvēlieties citu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/policies/unique_password/models.py
+msgid "Password Uniqueness Policy"
+msgstr "Paroles unikuma politika"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/policies/unique_password/models.py
+msgid "Password Uniqueness Policies"
+msgstr "Paroles unikalitātes politikas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/policies/unique_password/models.py
+msgid "User Password History"
+msgstr "Lietotāja paroles vēsture"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/policy.py
+msgid "Enterprise required to access this feature."
+msgstr "Lai piekļūtu šai funkcijai, nepieciešams Enterprise."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/policy.py
+msgid "Feature only accessible for internal users."
+msgstr "Funkcionalitāte pieejama tikai iekšējiem lietotājiem."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/google_workspace/models.py
+msgid "Google Workspace Provider User"
+msgstr "Google Workspace nodrošinātāja lietotājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/google_workspace/models.py
+msgid "Google Workspace Provider Users"
+msgstr "Google Workspace pakalpojuma lietotāji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/google_workspace/models.py
+msgid "Google Workspace Provider Group"
+msgstr "Google Workspace pakalpojumu sniedzēju grupa"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/google_workspace/models.py
+msgid "Google Workspace Provider Groups"
+msgstr "Google Workspace pakalpojumu sniedzēju grupas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/google_workspace/models.py
+#: authentik/enterprise/providers/microsoft_entra/models.py
+#: authentik/providers/scim/models.py
+msgid "Property mappings used for group creation/updating."
+msgstr ""
+"Īpašību kartēšana, kas tiek izmantota grupu izveidei un atjaunināšanai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/google_workspace/models.py
+msgid "Google Workspace Provider"
+msgstr "Google Workspace nodrošinātājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/google_workspace/models.py
+msgid "Google Workspace Providers"
+msgstr "Google Workspace nodrošinātāji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/google_workspace/models.py
+msgid "Google Workspace Provider Mapping"
+msgstr "Google Workspace īpašumtiesību kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/google_workspace/models.py
+msgid "Google Workspace Provider Mappings"
+msgstr "Google Workspace pakalpojumu kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/microsoft_entra/models.py
+msgid "Microsoft Entra Provider User"
+msgstr "Microsoft Entra Pakalpojuma Lietotājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/microsoft_entra/models.py
+msgid "Microsoft Entra Provider Group"
+msgstr "Microsoft Entra nodrošinātājgrupa"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/microsoft_entra/models.py
+msgid "Microsoft Entra Provider Groups"
+msgstr "Microsoft Entra nodrošinātāja grupas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/microsoft_entra/models.py
+msgid "Microsoft Entra Provider"
+msgstr "Microsoft Entra nodrošinātājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/microsoft_entra/models.py
+msgid "Microsoft Entra Providers"
+msgstr "Microsoft Entra pakalpojumu sniedzēji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/microsoft_entra/models.py
+msgid "Microsoft Entra Provider Mapping"
+msgstr "Microsoft Entra īpašību kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/microsoft_entra/models.py
+msgid "Microsoft Entra Provider Mappings"
+msgstr "Microsoft Entra rekvizītu kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/ssf/models.py
+#: authentik/providers/oauth2/models.py
+msgid "Signing Key"
+msgstr "Paraksta atslēga"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/ssf/models.py
+msgid "Key used to sign the SSF Events."
+msgstr "Atslēga, kas izmantota SSF notikumu parakstīšanai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/ssf/models.py
+msgid "Shared Signals Framework Provider"
+msgstr "Shared Signals Framework nodrošinātājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/ssf/models.py
+msgid "Shared Signals Framework Providers"
+msgstr "Kopīgoto signālu sistēmas nodrošinātāji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/ssf/models.py
+msgid "Add stream to SSF provider"
+msgstr "Pievienot datu plūsmu SSF nodrošinātājam"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/ssf/models.py
+msgid "SSF Stream"
+msgstr "SSF plūsma"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/ssf/models.py
+msgid "SSF Streams"
+msgstr "SSF plūsmas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/ssf/models.py
+msgid "SSF Stream Event"
+msgstr "SSF plūsmas notikums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/ssf/models.py
+msgid "SSF Stream Events"
+msgstr "SSF straumes notikumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/providers/ssf/tasks.py
+msgid "Failed to send request"
+msgstr "Neizdevās nosūtīt pieprasījumu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/authenticator_endpoint_gdtc/models.py
+msgid "Endpoint Authenticator Google Device Trust Connector Stage"
+msgstr "Google ierīču uzticības savienotāja posms: Ierīces autentifikators"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/authenticator_endpoint_gdtc/models.py
+msgid "Endpoint Authenticator Google Device Trust Connector Stages"
+msgstr ""
+"Google ierīču uzticamības savienotāja gala punkta autentifikācijas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/authenticator_endpoint_gdtc/models.py
+msgid "Endpoint Device"
+msgstr "Galapunkta ierīce"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/authenticator_endpoint_gdtc/models.py
+msgid "Endpoint Devices"
+msgstr "Galapunkta ierīces"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/authenticator_endpoint_gdtc/stage.py
+msgid "Verifying your browser..."
+msgstr "Pārbaudām jūsu pārlūkprogrammu..."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/mtls/models.py
+msgid ""
+"Configure certificate authorities to validate the certificate against. This "
+"option has a higher priority than the `client_certificate` option on "
+"`Brand`."
+msgstr ""
+"Konfigurējiet sertifikācijas iestādes, lai validētu sertifikātu. Šai opcijai"
+" ir augstāka prioritāte nekā `client_certificate` opcijai `Brand` sadaļā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/mtls/models.py
+msgid "Mutual TLS Stage"
+msgstr "Savstarpējā TLS posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/mtls/models.py
+msgid "Mutual TLS Stages"
+msgstr "Savstarpēja TLS posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/mtls/models.py
+msgid "Permissions to pass Certificates for outposts."
+msgstr "Atļaujas izsniegt sertifikātus priekšposteņiem."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/mtls/stage.py
+msgid "Certificate required but no certificate was given."
+msgstr "Nepieciešams sertifikāts, bet sertifikāts netika sniegts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/mtls/stage.py
+msgid "No user found for certificate."
+msgstr "Lietotājs nav atrasts sertifikātam."
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/source/models.py
+msgid ""
+"Amount of time a user can take to return from the source to continue the "
+"flow (Format: hours=-1;minutes=-2;seconds=-3)"
+msgstr ""
+"Lietotājam pieejamais laiks, lai atgrieztos no avota un turpinātu plūsmu "
+"(Formāts: stundas=-1;minūtes=-2;sekundes=-3)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/source/models.py
+msgid "Source Stage"
+msgstr "Avota posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/enterprise/stages/source/models.py
+msgid "Source Stages"
+msgstr "Avota posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/api/tasks.py
+msgid "Successfully started task {name}."
+msgstr "Uzdevums {name} tika veiksmīgi sākts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Event"
+msgstr "Notikums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Events"
+msgstr "Notikumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "authentik inbuilt notifications"
+msgstr "integrēti Authentik paziņojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Generic Webhook"
+msgstr "Vispārējs Webhooks"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Slack Webhook (Slack/Discord)"
+msgstr "Slack Webhook (Slack/Discord)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+#: authentik/stages/authenticator_validate/models.py
+msgid "Email"
+msgstr "E-pasts"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid ""
+"Customize the body of the request. Mapping should return data that is JSON-"
+"serializable."
+msgstr ""
+"Pielāgo pieprasījuma ķermeni. Kartējumam jāatgriež dati, kas ir "
+"sērijalizējami JSON formātā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid ""
+"Configure additional headers to be sent. Mapping should return a dictionary "
+"of key-value pairs"
+msgstr ""
+"Konfigurējiet papildu galvenes nosūtīšanai. Kartējumam ir jāatgriež atslēgu-"
+"vērtību pāru vārdnīca."
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid ""
+"Only send notification once, for example when sending a webhook into a chat "
+"channel."
+msgstr ""
+"Nosūtīt paziņojumu tikai vienu reizi, piemēram, sūtot webhook uz čata "
+"kanālu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Severity"
+msgstr "Nopietnība"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Dispatched for user"
+msgstr "Nosūtīts lietotājam"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Event user"
+msgstr "Pasākumu lietotājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Notification Transport"
+msgstr "Paziņojumu transports"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Notification Transports"
+msgstr "Paziņojumu pārsūtīšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Notice"
+msgstr "Paziņojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Warning"
+msgstr "Brīdinājums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Alert"
+msgstr "Brīdinājums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Notification"
+msgstr "Paziņojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Notifications"
+msgstr "Paziņojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid ""
+"Select which transports should be used to notify the user. If none are "
+"selected, the notification will only be shown in the authentik UI."
+msgstr ""
+"Izvēlieties, kuri transporti jāizmanto lietotāja paziņošanai. Ja neviens "
+"netiek izvēlēts, paziņojums tiks parādīts tikai Authentik lietotāja "
+"saskarnē."
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Controls which severity level the created notifications will have."
+msgstr "Kontrolē, kāds smaguma līmenis būs izveidotajiem paziņojumiem."
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid ""
+"Define which group of users this notification should be sent and shown to. "
+"If left empty, Notification won't ben sent."
+msgstr ""
+"Norādiet, kurai lietotāju grupai šis paziņojums ir jānosūta un jāparāda. Ja "
+"atstāts tukšs, paziņojums netiks nosūtīts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Notification Rule"
+msgstr "Paziņojumu noteikums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Notification Rules"
+msgstr "Paziņojumu noteikumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Webhook Mapping"
+msgstr "Webhook kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Webhook Mappings"
+msgstr "Webhook kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "Run task"
+msgstr "Sākt uzdevumu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "System Task"
+msgstr "Sistēmas uzdevumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/models.py
+msgid "System Tasks"
+msgstr "Sistēmas uzdevumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/events/system_tasks.py
+msgid "Task has not been run yet."
+msgstr "Uzdevums vēl nav palaists."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows.py
+msgid "Flow not applicable to current user/request: {messages}"
+msgstr ""
+"Plūsma nav piemērojama pašreizējam lietotājam vai pieprasījumam: {messages}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows_diagram.py
+msgid "Policy ({type})"
+msgstr "Politika ({type})"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows_diagram.py
+msgid "Binding {order}"
+msgstr "Saistīšana {order}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows_diagram.py
+msgid "Policy passed"
+msgstr "Politika apstiprināta"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows_diagram.py
+msgid "Stage ({type})"
+msgstr "Posms ({type})"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows_diagram.py
+msgid "Policy denied"
+msgstr "Politika noraidīta"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows_diagram.py
+msgid "End of the flow"
+msgstr "Plūsmas beigas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows_diagram.py
+msgid "Requirement not fulfilled"
+msgstr "Prasība nav izpildīta"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows_diagram.py
+msgid "Flow authentication requirement"
+msgstr "Plūsmas autentifikācijas prasība"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows_diagram.py
+msgid "Requirement fulfilled"
+msgstr "Prasība izpildīta"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows_diagram.py
+msgid "Pre-flow policies"
+msgstr "Pirms plūsmas politikas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/api/flows_diagram.py authentik/flows/models.py
+msgid "Flow"
+msgstr "Plūsma"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/exceptions.py
+msgid "Flow does not apply to current user."
+msgstr "Plūsma neattiecas uz pašreizējo lietotāju."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Dynamic In-memory stage: {doc}"
+msgstr "Dinamiska atmiņas stadija: {doc}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Visible in the URL."
+msgstr "Redzams URL."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Shown as the Title in Flow pages."
+msgstr "Rādīt kā nosaukumu Flow lapās."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid ""
+"Decides what this Flow is used for. For example, the Authentication flow is "
+"redirect to when an un-authenticated user visits authentik."
+msgstr ""
+"Nosaka, kādam nolūkam izmanto šo plūsmu. Piemēram, neautentificēta lietotāja"
+" apmeklējuma gadījumā autentikācijas plūsma ir tā, uz kuru tiek veikta "
+"novirzīšana."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Background shown during execution"
+msgstr "Izpildes laikā tiek parādīts fona attēls"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid ""
+"Enable compatibility mode, increases compatibility with password managers on"
+" mobile devices."
+msgstr ""
+"Iespējojiet savietojamības režīmu, kas uzlabo savietojamību ar paroļu "
+"pārvaldniekiem mobilajās ierīcēs."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Configure what should happen when a flow denies access to a user."
+msgstr "Konfigurējiet, kas jādara, ja plūsma liegs lietotājam piekļuvi."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Required level of authentication and authorization to access a flow."
+msgstr ""
+"Nepieciešamais autentifikācijas un autorizācijas līmenis plūsmas piekļuvei."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Flows"
+msgstr "Plūsmas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Can export a Flow"
+msgstr "Var eksportēt plūsmu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Can inspect a Flow's execution"
+msgstr "Var pārbaudīt plūsmas izpildi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "View Flow's cache metrics"
+msgstr "Skatīt plūsmas kešatmiņas metrikas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Clear Flow's cache metrics"
+msgstr "Notīrīt Flow kešatmiņas metrikas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Evaluate policies during the Flow planning process."
+msgstr "Izvērtēt politikas plūduma plānošanas procesā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Evaluate policies when the Stage is presented to the user."
+msgstr "Novērtējiet politikas, kad lietotājam tiek parādīta Skatuve."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid ""
+"Configure how the flow executor should handle an invalid response to a "
+"challenge. RETRY returns the error message and a similar challenge to the "
+"executor. RESTART restarts the flow from the beginning, and "
+"RESTART_WITH_CONTEXT restarts the flow while keeping the current context."
+msgstr ""
+"Konfigurēt, kā plūsmas izpildītājam jāapstrādā nederīga atbilde uz "
+"izaicinājumu. RETRY atgriež kļūdas ziņojumu un līdzīgu izaicinājumu "
+"izpildītājam. RESTART pārstartē plūsmu no sākuma, un RESTART_WITH_CONTEXT "
+"pārstartē plūsmu, saglabājot pašreizējo kontekstu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Flow Stage Binding"
+msgstr "Plūsmas posma saistīšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Flow Stage Bindings"
+msgstr "Plūsmas posma saistības"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid ""
+"Flow used by an authenticated user to configure this Stage. If empty, user "
+"will not be able to configure this stage."
+msgstr ""
+"Autentificētam lietotājam izmantotā plūsma šīs posma konfigurēšanai. Ja "
+"plūsma ir tukša, lietotājs nevarēs konfigurēt šo posmu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Flow Token"
+msgstr "Plūsmas žetons"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/models.py
+msgid "Flow Tokens"
+msgstr "Plūsmas žetoni"
+
+# ChatGPT-translated from EN+FR
+#: authentik/flows/views/executor.py
+msgid "Invalid next URL"
+msgstr "Nederīgs nākamais URL"
+
+# ChatGPT-translated from EN+FR
+#: authentik/lib/sync/outgoing/models.py
+msgid ""
+"When enabled, provider will not modify or create objects in the remote "
+"system."
+msgstr ""
+"Kad iespējots, nodrošinātājs nemainīs un neradīs objektus attālajā sistēmā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/lib/sync/outgoing/tasks.py
+msgid "Starting full provider sync"
+msgstr "Sākas pilnīga pakalpojumu sniedzēja sinhronizācija"
+
+# ChatGPT-translated from EN+FR
+#: authentik/lib/sync/outgoing/tasks.py
+msgid "Syncing users"
+msgstr "Lietotāju sinhronizācija"
+
+# ChatGPT-translated from EN+FR
+#: authentik/lib/sync/outgoing/tasks.py
+msgid "Syncing groups"
+msgstr "Grupu sinhronizēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/lib/sync/outgoing/tasks.py
+msgid "Syncing page {page} of {object_type}"
+msgstr "Sinhronizē {object_type} lapu {page}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/lib/sync/outgoing/tasks.py
+msgid "Dropping mutating request due to dry run"
+msgstr "Atmet mutācijas pieprasījumu saistībā ar izmēģinājuma izpildi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/lib/sync/outgoing/tasks.py
+msgid "Stopping sync due to error: {error}"
+msgstr "Sinhronizācija apturēta kļūdas dēļ: {error}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/lib/utils/time.py
+msgid "%(value)s is not in the correct format of 'hours=3;minutes=1'."
+msgstr "%(value)s nav pareizā formātā 'hours=3;minutes=1'."
+
+# ChatGPT-translated from EN+FR
+#: authentik/lib/validators.py
+msgid "The fields {field_names} must be used together."
+msgstr "Lauki {field_names} ir jāizmanto kopā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/api/service_connections.py
+msgid ""
+"You can only use an empty kubeconfig when connecting to a local cluster."
+msgstr ""
+"Kubeconfig var izmantot tikai tukšu, ja pieslēdzaties vietējam klasterim."
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/api/service_connections.py
+msgid "Invalid kubeconfig"
+msgstr "Nederīgs kubeconfig fails"
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid ""
+"If enabled, use the local connection. Required Docker socket/Kubernetes "
+"Integration"
+msgstr ""
+"Ja iespējots, izmantojiet lokālo savienojumu. Nepieciešama Docker "
+"socket/Kubernetes integrācija."
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid "Outpost Service-Connection"
+msgstr "Priekšposteņa pakalpojumu savienojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid "Outpost Service-Connections"
+msgstr "Priekšposteņa savienojumi ar pakalpojumu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid ""
+"Can be in the format of 'unix://<path>' when connecting to a local docker "
+"daemon, or 'https://<hostname>:2376' when connecting to a remote system."
+msgstr ""
+"Var būt formātā 'unix://<ceļš>' savienojoties ar lokālo docker dēmonu, vai "
+"'https://<resursdators>:2376' savienojoties ar attālinātu sistēmu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid ""
+"CA which the endpoint's Certificate is verified against. Can be left empty "
+"for no validation."
+msgstr ""
+"Galapunkta sertifikāts tiek pārbaudīts pret CA. Var atstāt tukšu, ja netiek "
+"veikta validācija."
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid ""
+"Certificate/Key used for authentication. Can be left empty for no "
+"authentication."
+msgstr ""
+"Sertifikāts/atslēga, kas tiek izmantota autentifikācijai. Var atstāt tukšu, "
+"ja autentifikācija nav nepieciešama."
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid "Docker Service-Connection"
+msgstr "Docker pakalpojuma savienojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid "Docker Service-Connections"
+msgstr "Docker pakalpojuma savienojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid ""
+"Paste your kubeconfig here. authentik will automatically use the currently "
+"selected context."
+msgstr ""
+"Ielīmējiet savu kubeconfig šeit. authentik automātiski izmantos pašlaik "
+"izvēlēto kontekstu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid "Verify SSL Certificates of the Kubernetes API endpoint"
+msgstr "Pārbaudiet Kubernetes API galapunkta SSL sertifikātus"
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid "Kubernetes Service-Connection"
+msgstr "Kubernetes pakalpojuma savienojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid "Kubernetes Service-Connections"
+msgstr "Kubernetes pakalpojumu savienojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid ""
+"Select Service-Connection authentik should use to manage this outpost. Leave"
+" empty if authentik should not handle the deployment."
+msgstr ""
+"Izvēlieties pakalpojuma savienojumu, ko authentik izmantos, lai pārvaldītu "
+"šo priekšposteni. Atstājiet tukšu, ja authentik nevajadzētu pārvaldīt "
+"izvietojumu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid "Outpost"
+msgstr "Priekšpostenis"
+
+# ChatGPT-translated from EN+FR
+#: authentik/outposts/models.py
+msgid "Outposts"
+msgstr "Priekšposteņi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/denied.py
+msgid "Access denied"
+msgstr "Piekļuve liegta"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/dummy/models.py
+msgid "Dummy Policy"
+msgstr "Viltus politika"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/dummy/models.py
+msgid "Dummy Policies"
+msgstr "Fiktīvas politikas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/event_matcher/api.py
+#: authentik/policies/event_matcher/models.py
+msgid ""
+"Match events created by selected application. When left empty, all "
+"applications are matched."
+msgstr ""
+"Sakrīt notikumus, kurus izveidojusi izvēlētā lietotne. Ja atstāts tukšs, "
+"tiks sakārtotas visas lietotnes."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/event_matcher/api.py
+#: authentik/policies/event_matcher/models.py
+msgid ""
+"Match events created by selected model. When left empty, all models are "
+"matched. When an app is selected, all the application's models are matched."
+msgstr ""
+"Sakritiniet notikumus, kurus izveidojis izvēlētais modelis. Ja atstāts "
+"tukšs, tiks sakritināti visi modeļi. Kad tiek izvēlēta lietotne, tiks "
+"sakritināti visi lietotnes modeļi."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/event_matcher/api.py
+msgid "At least one criteria must be set."
+msgstr "Vismaz viens kritērijs jānosaka."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/event_matcher/models.py
+msgid ""
+"Match created events with this action type. When left empty, all action "
+"types will be matched."
+msgstr ""
+"Saskaņojiet izveidotajos notikumos šo darbības tipu. Ja atstāts tukšs, tiks "
+"saskaņoti visi darbības tipi."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/event_matcher/models.py
+msgid ""
+"Matches Event's Client IP (strict matching, for network matching use an "
+"Expression Policy)"
+msgstr ""
+"Sakrīt notikuma klienta IP adrese (strikta atbilstība, tīkla atbilstībai "
+"izmantojiet Izteikumu politiku)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/event_matcher/models.py
+msgid "Event Matcher Policy"
+msgstr "Notikumu Saskarnes Politika"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/event_matcher/models.py
+msgid "Event Matcher Policies"
+msgstr "Notikumu atbilstības politikas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/expiry/models.py
+msgid "Password expired {days} days ago. Please update your password."
+msgstr ""
+"Parole ir beigusies pirms {days} dienām. Lūdzu, atjauniniet savu paroli."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/expiry/models.py
+msgid "Password has expired."
+msgstr "Parole ir beigusies."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/expiry/models.py
+msgid "Password Expiry Policy"
+msgstr "Paroļu Derīguma Termiņa Politika"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/expiry/models.py
+msgid "Password Expiry Policies"
+msgstr "Paroles derīguma termiņu politika"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/expression/models.py
+msgid "Expression Policy"
+msgstr "Izteiksmes politika"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/expression/models.py
+msgid "Expression Policies"
+msgstr "Izpausmes politika"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/geoip/models.py
+msgid "GeoIP: client IP not found in ASN database."
+msgstr "GeoIP: klienta IP adrese nav atrasta ASN datubāzē."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/geoip/models.py
+msgid "Client IP is not part of an allowed autonomous system."
+msgstr "Klienta IP adrese nav atļauta autonomajā sistēmā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/geoip/models.py
+msgid "GeoIP: client IP address not found in City database."
+msgstr "GeoIP: klienta IP adrese nav atrasta pilsētas datu bāzē."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/geoip/models.py
+msgid "Client IP is not in an allowed country."
+msgstr "Klienta IP adrese nav no atļautās valsts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/geoip/models.py
+msgid "Distance from previous authentication is larger than threshold."
+msgstr "Attālums no iepriekšējās autentifikācijas pārsniedz slieksni."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/geoip/models.py
+msgid "Distance is further than possible."
+msgstr "Attālums ir lielāks nekā iespējams."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/geoip/models.py
+msgid "GeoIP Policy"
+msgstr "GeoIP politika"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/geoip/models.py
+msgid "GeoIP Policies"
+msgstr "GeoIP politikas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "all, all policies must pass"
+msgstr "Visas politikas ir jāizpilda."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "any, any policy must pass"
+msgstr "jebkura, jebkurai politikai ir jāizdodas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "Policy Binding Model"
+msgstr "Politikas sasaistes modelis"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "Policy Binding Models"
+msgstr "Politikas modeļu sasaistīšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "Negates the outcome of the policy. Messages are unaffected."
+msgstr "Atceļ politikas rezultātu. Ziņojumi netiek ietekmēti."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "Timeout after which Policy execution is terminated."
+msgstr ""
+"Izpildes laika ierobežojums, pēc kura politikas izpilde tiek pārtraukta."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "Result if the Policy execution fails."
+msgstr "Rezultāts, ja politikas izpilde neizdodas."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "Policy Binding"
+msgstr "Politikas saistīšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "Policy Bindings"
+msgstr "Politikas saistības"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid ""
+"When this option is enabled, all executions of this policy will be logged. "
+"By default, only execution errors are logged."
+msgstr ""
+"Kad šī opcija ir aktivizēta, visas šīs politikas izpildes tiks reģistrētas. "
+"Pēc noklusējuma tiek reģistrētas tikai izpildes kļūdas."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "Policy"
+msgstr "Politika"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "Policies"
+msgstr "Politikas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "View Policy's cache metrics"
+msgstr "Skatīt politikas kešatmiņas metriku"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/models.py
+msgid "Clear Policy's cache metrics"
+msgstr "Notīrīt Politikas kešatmiņas metrikas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/password/models.py
+msgid "How many times the password hash is allowed to be on haveibeenpwned"
+msgstr "Cik reizes ir atļauts parādīties paroles hašam vietnē haveibeenpwned"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/password/models.py
+msgid ""
+"If the zxcvbn score is equal or less than this value, the policy will fail."
+msgstr ""
+"Ja zxcvbn rezultāts ir vienāds ar šo vērtību vai mazāks par to, politika "
+"neizdosies."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/password/models.py
+msgid "Invalid password."
+msgstr "Norādītā parole ir nederīga."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/password/models.py
+msgid "Password exists on {count} online lists."
+msgstr "Parole atrodas {count} tiešsaistes sarakstos."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/password/models.py
+msgid "Password is too weak."
+msgstr "Parole ir pārāk vāja."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/password/models.py
+msgid "Password Policy"
+msgstr "Paroles politika"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/password/models.py
+msgid "Password Policies"
+msgstr "Paroles Politikas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/reputation/api.py
+msgid "Either IP or Username must be checked"
+msgstr "Vai nu IP vai lietotājvārds ir jāpārbauda"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/reputation/models.py
+msgid "Reputation Policy"
+msgstr "Reputācijas politika"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/reputation/models.py
+msgid "Reputation Policies"
+msgstr "Reputācijas politikas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/reputation/models.py
+msgid "Reputation Score"
+msgstr "Reputācijas rādītājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/reputation/models.py
+msgid "Reputation Scores"
+msgstr "Reputācijas rādītāji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/templates/policies/denied.html
+msgid "Permission denied"
+msgstr "Atļauja liegta"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/templates/policies/denied.html
+msgid "User's avatar"
+msgstr "Lietotāja attēls"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/templates/policies/denied.html
+msgid "Not you?"
+msgstr "Nav jūs?"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/templates/policies/denied.html
+msgid "Request has been denied."
+msgstr "Pieprasījums ir noraidīts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/templates/policies/denied.html
+msgid "Messages:"
+msgstr "Ziņojumi:"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/templates/policies/denied.html
+msgid "Explanation:"
+msgstr "Skaidrojums:"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/templates/policies/denied.html
+msgid ""
+"\n"
+"                    Policy binding '%(name)s' returned result '%(result)s'\n"
+"                    "
+msgstr "\nPolitikas piesaiste '%(name)s' atgrieza rezultātu '%(result)s'"
+
+# ChatGPT-translated from EN+FR
+#: authentik/policies/views.py
+msgid "Failed to resolve application"
+msgstr "Neizdevās atrisināt lietojumprogrammu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/ldap/models.py
+msgid "DN under which objects are accessible."
+msgstr "DN, zem kura ir pieejami objekti."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/ldap/models.py
+msgid ""
+"The start for uidNumbers, this number is added to the user.pk to make sure "
+"that the numbers aren't too low for POSIX users. Default is 2000 to ensure "
+"that we don't collide with local users uidNumber"
+msgstr ""
+"UidNumber sākumpunkts, šis skaitlis tiek pievienots user.pk, lai "
+"nodrošinātu, ka skaitļi POSIX lietotājiem nav pārāk mazi. Noklusējuma "
+"vērtība ir 2000, lai izvairītos no konflikta ar vietējo lietotāju uidNumber."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/ldap/models.py
+msgid ""
+"The start for gidNumbers, this number is added to a number generated from "
+"the group.pk to make sure that the numbers aren't too low for POSIX groups. "
+"Default is 4000 to ensure that we don't collide with local groups or users "
+"primary groups gidNumber"
+msgstr ""
+"GidNumber sākuma vērtība, šis skaitlis tiek pievienots skaitlim, kas ir "
+"ģenerēts no group.pk, lai nodrošinātu, ka skaitļi nav pārāk zemi POSIX "
+"grupām. Noklusējuma vērtība ir 4000, lai novērstu konfliktu ar vietējām "
+"grupām vai lietotāju primārajām grupām gidNumber."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/ldap/models.py authentik/providers/radius/models.py
+msgid ""
+"When enabled, code-based multi-factor authentication can be used by "
+"appending a semicolon and the TOTP code to the password. This should only be"
+" enabled if all users that will bind to this provider have a TOTP device "
+"configured, as otherwise a password may incorrectly be rejected if it "
+"contains a semicolon."
+msgstr ""
+"Kad ir ieslēgta, uz kodu balstītu daudzfaktoru autentifikāciju var izmantot,"
+" pievienojot semikolu un TOTP kodu pie paroles. Šī iespēja būtu jāaktivizē "
+"tikai tad, ja visiem lietotājiem, kas pieslēgsies šim nodrošinātājam, ir "
+"konfigurēta TOTP ierīce. Pretējā gadījumā parole var tikt kļūdaini atteikta,"
+" ja tajā ir iekļauts semikols."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/ldap/models.py
+msgid "LDAP Provider"
+msgstr "LDAP nodrošinātājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/ldap/models.py
+msgid "LDAP Providers"
+msgstr "LDAP nodrošinātāji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/ldap/models.py
+msgid "Search full LDAP directory"
+msgstr "Meklēt pilnu LDAP direktoriju"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/api/providers.py
+msgid "Invalid Regex Pattern: {url}"
+msgstr "Nederīgs regex raksts: {url}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/id_token.py
+msgid "Based on the Hashed User ID"
+msgstr "Balstoties uz izmantotāja ID hešēšanu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/id_token.py
+msgid "Based on user ID"
+msgstr "Pamatojoties uz lietotāja ID"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/id_token.py
+msgid "Based on user UUID"
+msgstr "Balstīts uz lietotāja UUID"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/id_token.py
+msgid "Based on the username"
+msgstr "Balstoties uz lietotājvārdu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/id_token.py
+msgid "Based on the User's Email. This is recommended over the UPN method."
+msgstr ""
+"Balstīts uz lietotāja e-pastu. Tas ir ieteicams salīdzinājumā ar UPN metodi."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/id_token.py
+msgid ""
+"Based on the User's UPN, only works if user has a 'upn' attribute set. Use "
+"this method only if you have different UPN and Mail domains."
+msgstr ""
+"Balstoties uz lietotāja UPN, darbojas tikai tad, ja lietotājam ir iestatīts "
+"'upn' atribūts. Izmantojiet šo metodi tikai tad, ja UPN un e-pasta domēni ir"
+" atšķirīgi."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Confidential"
+msgstr "Konfidenciāli"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Public"
+msgstr "Publisks"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Same identifier is used for all providers"
+msgstr ""
+"Visiem pakalpojumu sniedzējiem tiek izmantots viens un tas pats "
+"identifikators"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Each provider has a different issuer, based on the application slug."
+msgstr ""
+"Katram pakalpojumu sniedzējam ir atšķirīgs izsniedzējs, balstoties uz "
+"lietotnes slugu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Strict URL comparison"
+msgstr "Stingra URL salīdzināšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Regular Expression URL matching"
+msgstr "Regulārās izteiksmes URL atbilstība"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "code (Authorization Code Flow)"
+msgstr "kods (Atļaujas Koda Plūsma)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "id_token (Implicit Flow)"
+msgstr "id_token (Implicitā plūsma)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "id_token token (Implicit Flow)"
+msgstr "id_token marķieris (Netiešā plūsma)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "code token (Hybrid Flow)"
+msgstr "kods marķieris (Hibrīdplūsma)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "code id_token (Hybrid Flow)"
+msgstr "kods id_token (Hibrīda Plūsma)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "code id_token token (Hybrid Flow)"
+msgstr "kods id_token token (Hibrīda plūsma)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "HS256 (Symmetric Encryption)"
+msgstr "HS256 (simetriskā šifrēšana)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "RS256 (Asymmetric Encryption)"
+msgstr "RS256 (asimetriskā šifrēšana)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "ES256 (Asymmetric Encryption)"
+msgstr "ES256 (Asimetriskā Šifrēšana)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "ES384 (Asymmetric Encryption)"
+msgstr "ES384 (asimetriskā šifrēšana)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "ES512 (Asymmetric Encryption)"
+msgstr "ES512 (asimetriskā šifra izmantošana)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Scope used by the client"
+msgstr "Klienta izmantotie darbības jomas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid ""
+"Description shown to the user when consenting. If left empty, the user won't"
+" be informed."
+msgstr ""
+"Lietotājam rādāmais apraksts piekrišanas laikā. Informācija netiks sniegta, "
+"ja atstāts tukšs."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Scope Mapping"
+msgstr "Piemērošanas Pārskats"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Scope Mappings"
+msgstr "Apmēru kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Client Type"
+msgstr "Klienta tips"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid ""
+"Confidential clients are capable of maintaining the confidentiality of their"
+" credentials. Public clients are incapable"
+msgstr ""
+"Konfidenciālie klienti spēj saglabāt savu identifikācijas datu "
+"konfidencialitāti. Publiskie klienti to nespēj."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Client ID"
+msgstr "Klienta ID"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Client Secret"
+msgstr "Klienta noslēpums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Redirect URIs"
+msgstr "Pāradresācijas URI"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Include claims in id_token"
+msgstr "Iekļaut prasības id_token"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid ""
+"Include User claims from scopes in the id_token, for applications that don't"
+" access the userinfo endpoint."
+msgstr ""
+"Iekļaut id_token lietotāja pieprasījumus no darbības jomām lietotnēm, kas "
+"neizmanto userinfo galapunktu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid ""
+"Access codes not valid on or after current time + this value (Format: "
+"hours=1;minutes=2;seconds=3)."
+msgstr ""
+"Piekļuves kodi nav derīgi pašreizējā laikā + šī vērtība (Formāts: "
+"hours=1;minutes=2;seconds=3)."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid ""
+"Tokens not valid on or after current time + this value (Format: "
+"hours=1;minutes=2;seconds=3)."
+msgstr ""
+"Akreditācijas dati zaudē spēkā esamību pēc pašreizējā laika + dotā vērtība "
+"(Formāts: hours=1;minutes=2;seconds=3)."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid ""
+"Configure what data should be used as unique User Identifier. For most "
+"cases, the default should be fine."
+msgstr ""
+"Konfigurējiet, kādus datus izmantot kā unikālu lietotāja identifikatoru. "
+"Vairumā gadījumu noklusējuma vērtība būs derīga."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Configure how the issuer field of the ID Token should be filled."
+msgstr "Konfigurējiet, kā ID marķiera izdevēja lauks tiks aizpildīts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Key used to sign the tokens."
+msgstr "Atslēga, kas tiek izmantota žetonu parakstīšanai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Encryption Key"
+msgstr "Šifrēšanas atslēga"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid ""
+"Key used to encrypt the tokens. When set, tokens will be encrypted and "
+"returned as JWEs."
+msgstr ""
+"Atslēga, kas tiek izmantota, lai šifrētu pilnvaras. Ja iestatīts, pilnvaras "
+"tiks šifrētas un atgrieztas kā JWE."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid ""
+"Any JWT signed by the JWK of the selected source can be used to "
+"authenticate."
+msgstr ""
+"Jebkurš JWT, kas parakstīts ar atlasītā avota JWK, var tikt izmantots "
+"autentifikācijai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "OAuth2/OpenID Provider"
+msgstr "OAuth2/OpenID nodrošinātājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "OAuth2/OpenID Providers"
+msgstr "OAuth2/OpenID nodrošinātāji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Scopes"
+msgstr "Lomas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Code"
+msgstr "Kods"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Nonce"
+msgstr "Vienreizējs kods"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Code Challenge"
+msgstr "Koda izaicinājums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Code Challenge Method"
+msgstr "Koda izaicinājuma metode"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Authorization Code"
+msgstr "Autorizācijas kods"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Authorization Codes"
+msgstr "Autorizācijas kodi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "OAuth2 Access Token"
+msgstr "OAuth2 piekļuves žetons"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "OAuth2 Access Tokens"
+msgstr "OAuth2 piekļuves žetoni"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "ID Token"
+msgstr "ID žetons"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "OAuth2 Refresh Token"
+msgstr "OAuth2 atjaunošanas pilnvara"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "OAuth2 Refresh Tokens"
+msgstr "OAuth2 atsvaidzināšanas tokeni"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Device Token"
+msgstr "Ierīces žetons"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/models.py
+msgid "Device Tokens"
+msgstr "Ierīču žetoni"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/views/authorize.py
+#: authentik/providers/saml/views/flows.py
+msgid "Redirecting to {app}..."
+msgstr "Novirzīšana uz {app}..."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/views/device_init.py
+msgid "Invalid code"
+msgstr "Nederīgs kods"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/views/userinfo.py
+msgid "GitHub Compatibility: Access your User Information"
+msgstr "GitHub saderība: piekļuve lietotāja informācijai"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/views/userinfo.py
+msgid "GitHub Compatibility: Access you Email addresses"
+msgstr "GitHub savietojamība: piekļuve jūsu e-pasta adresēm"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/oauth2/views/userinfo.py
+msgid "GitHub Compatibility: Access your Groups"
+msgstr "GitHub savietojamība: grupu piekļuve"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/api.py
+msgid "User and password attributes must be set when basic auth is enabled."
+msgstr ""
+"Lietotāja un paroles atribūti ir jāiestata, kad ir aktivizēta pamata "
+"autentifikācija."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/api.py
+msgid "Internal host cannot be empty when forward auth is disabled."
+msgstr ""
+"Iekšējais resursdators nevar būt tukšs, ja pāradresētās autentifikācijas "
+"funkcija ir atspējota."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid "Validate SSL Certificates of upstream servers"
+msgstr "Pārbaudīt augšējo serveru SSL sertifikātus"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid "Internal host SSL Validation"
+msgstr "Iekšējā resursdatora SSL pārbaude"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid ""
+"Enable support for forwardAuth in traefik and nginx auth_request. Exclusive "
+"with internal_host."
+msgstr ""
+"Iespējot forwardAuth atbalstu programmās traefik un nginx auth_request. Nav "
+"savietojams ar internal_host."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid ""
+"Regular expressions for which authentication is not required. Each new line "
+"is interpreted as a new Regular Expression."
+msgstr ""
+"Izteiksmes regulārās, kurām nav nepieciešama autentifikācija. Katru jaunu "
+"rindu interpretē kā jaunu regulāru izteiksmi."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid ""
+"When enabled, this provider will intercept the authorization header and "
+"authenticate requests based on its value."
+msgstr ""
+"Kad iespējots, šis nodrošinātājs pārtvers autorizācijas galveni un "
+"autentificēs pieprasījumus, pamatojoties uz tās vērtību."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid "Set HTTP-Basic Authentication"
+msgstr "Iestatīt HTTP-Basic autentifikāciju"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid ""
+"Set a custom HTTP-Basic Authentication header based on values from "
+"authentik."
+msgstr ""
+"Iestatīt pielāgotu HTTP-Basic autentifikācijas galveni, pamatojoties uz "
+"Authentik vērtībām."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid "HTTP-Basic Username Key"
+msgstr "HTTP-Basic lietotājvārda atslēga"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid ""
+"User/Group Attribute used for the user part of the HTTP-Basic Header. If not"
+" set, the user's Email address is used."
+msgstr ""
+"Lietotāja/grupas atribūts, ko izmanto HTTP-Basic galvenes lietotāja daļā. Ja"
+" tas nav norādīts, tiek izmantota lietotāja e-pasta adrese."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid "HTTP-Basic Password Key"
+msgstr "HTTP-Basic paroles atslēga"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid ""
+"User/Group Attribute used for the password part of the HTTP-Basic Header."
+msgstr ""
+"Lietotāja/grupas atribūts, ko izmanto HTTP-Basic galvenes paroles laukam."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid "Proxy Provider"
+msgstr "Starpniekdienesta nodrošinātājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/proxy/models.py
+msgid "Proxy Providers"
+msgstr "Starpniekserveru nodrošinātāji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/models.py authentik/stages/user_login/models.py
+msgid ""
+"Determines how long a session lasts. Default of 0 means that the sessions "
+"lasts until the browser is closed. (Format: hours=-1;minutes=-2;seconds=-3)"
+msgstr ""
+"Nosaka, cik ilgi sesija ilgst. Noklusējuma vērtība 0 nozīmē, ka sesija ilgst"
+" līdz pārlūkprogrammas aizvēršanai. (Formāts: "
+"hours=-1;minutes=-2;seconds=-3)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/models.py
+msgid "When set to true, connection tokens will be deleted upon disconnect."
+msgstr "Ja ieslēgts, savienojuma marķieri tiks dzēsti pēc atvienošanās."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/models.py
+msgid "RAC Provider"
+msgstr "RAC pakalpojumu sniedzējs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/models.py
+msgid "RAC Providers"
+msgstr "RAC pakalpojumu sniedzēji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/models.py
+msgid "RAC Endpoint"
+msgstr "RAC galapunkts"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/models.py
+msgid "RAC Endpoints"
+msgstr "RAC galapunkti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/models.py
+msgid "RAC Provider Property Mapping"
+msgstr "RAC pakalpojumu sniedzēja īpašumu kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/models.py
+msgid "RAC Provider Property Mappings"
+msgstr "RAC pakalpojumu sniedzēja īpašību kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/models.py
+msgid "RAC Connection token"
+msgstr "RAC savienojuma atslēga"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/models.py
+msgid "RAC Connection tokens"
+msgstr "RAC savienojuma tokeni"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/views.py
+msgid "Maximum connection limit reached."
+msgstr "Maksimālais savienojumu skaits ir sasniegts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/rac/views.py
+msgid "(You are already connected in another tab/window)"
+msgstr "Jūs jau esat pieslēdzies citā cilnē/logā"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/radius/models.py
+msgid "Shared secret between clients and server to hash packets."
+msgstr ""
+"Kopīgs noslēpums starp klientiem un serveri, lai veiktu pakešu jaukšanu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/radius/models.py
+msgid ""
+"List of CIDRs (comma-separated) that clients can connect from. A more "
+"specific CIDR will match before a looser one. Clients connecting from a non-"
+"specified CIDR will be dropped."
+msgstr ""
+"CIDR saraksts (ar komatiem atdalīts), no kuriem klienti var piekļūt. "
+"Konkrētāks CIDR tiks saskaņots pirms mazāk konkrēta. Klientus, kas "
+"pieslēdzas no neparedzēta CIDR, noraidīs."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/radius/models.py
+msgid "Radius Provider"
+msgstr "Radius pakalpojumu sniedzējs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/radius/models.py
+msgid "Radius Providers"
+msgstr "Radius pakalpojumu sniedzēji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/radius/models.py
+msgid "Radius Provider Property Mapping"
+msgstr "Radius pakalpojumu sniedzēja īpašību kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/radius/models.py
+msgid "Radius Provider Property Mappings"
+msgstr "Radius nodrošinātāja īpašību kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/api/providers.py
+msgid ""
+"With a signing keypair selected, at least one of 'Sign assertion' and 'Sign "
+"Response' must be selected."
+msgstr ""
+"Izvēloties paraksta atslēgu pāri, jāizvēlas vismaz viens no variantiem: "
+"\"Parakstīt apstiprinājumu\" vai \"Parakstīt atbildi\"."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/api/providers.py
+msgid "Invalid XML Syntax"
+msgstr "Nederīga XML sintakse"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/api/providers.py
+msgid "Failed to import Metadata: {messages}"
+msgstr "Neizdevās importēt metadatus: {messages}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "ACS URL"
+msgstr "ACS URL"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid ""
+"Value of the audience restriction field of the assertion. When left empty, "
+"no audience restriction will be added."
+msgstr ""
+"Apstiprinājuma auditorijas ierobežojumu lauka vērtība. Ja atstāts tukšs, "
+"netiks pievienoti nekādi auditorijas ierobežojumi."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "Also known as EntityID"
+msgstr "Arī pazīstams kā EntityID"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "Service Provider Binding"
+msgstr "Pakalpojumu sniedzēja saistība"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid ""
+"This determines how authentik sends the response back to the Service "
+"Provider."
+msgstr ""
+"Tas nosaka, kā authentik nosūta atbildi atpakaļ pakalpojumu sniedzējam."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "NameID Property Mapping"
+msgstr "NameID īpašības kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid ""
+"Configure how the NameID value will be created. When left empty, the "
+"NameIDPolicy of the incoming request will be considered"
+msgstr ""
+"Konfigurējiet, kā tiks izveidota NameID vērtība. Ja atstāts tukšs, tiks "
+"ņemta vērā ienākošā pieprasījuma NameIDPolicy."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "AuthnContextClassRef Property Mapping"
+msgstr "AuthnContextClassRef rekvizīta kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid ""
+"Configure how the AuthnContextClassRef value will be created. When left "
+"empty, the AuthnContextClassRef will be set based on which authentication "
+"methods the user used to authenticate."
+msgstr ""
+"Iestatiet, kā tiks izveidota AuthnContextClassRef vērtība. Ja atstāta tukša,"
+" AuthnContextClassRef tiks noteikta, pamatojoties uz to, kuras "
+"autentifikācijas metodes lietotājs izmantoja autentifikācijai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid ""
+"Assertion valid not before current time + this value (Format: "
+"hours=-1;minutes=-2;seconds=-3)."
+msgstr ""
+"Apstiprinājums būs derīgs tikai pēc pašreizējā laika + šī vērtība (Formāts: "
+"stundas=-1;minūtes=-2;sekundes=-3)."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid ""
+"Assertion not valid on or after current time + this value (Format: "
+"hours=1;minutes=2;seconds=3)."
+msgstr ""
+"Apstiprinājums nav derīgs pēc norādītā laika (formāts: "
+"hours=1;minutes=2;seconds=3)."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid ""
+"Session not valid on or after current time + this value (Format: "
+"hours=1;minutes=2;seconds=3)."
+msgstr ""
+"Sesija nav derīga pēc pašreizējā laika + šī vērtība (Formāts: "
+"stundas=1;minūtes=2;sekundes=3)."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "SHA1"
+msgstr "SHA1"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "SHA256"
+msgstr "SHA256"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "SHA384"
+msgstr "SHA384"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "SHA512"
+msgstr "SHA512"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "RSA-SHA1"
+msgstr "RSA-SHA1"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "RSA-SHA256"
+msgstr "RSA-SHA256"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "RSA-SHA384"
+msgstr "RSA-SHA384"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "RSA-SHA512"
+msgstr "RSA-SHA512"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "ECDSA-SHA1"
+msgstr "ECDSA-SHA1"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "ECDSA-SHA256"
+msgstr "ECDSA-SHA256"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "ECDSA-SHA384"
+msgstr "ECDSA-SHA384"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "ECDSA-SHA512"
+msgstr "ECDSA-SHA512"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "DSA-SHA1"
+msgstr "DSA-SHA1"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid ""
+"When selected, incoming assertion's Signatures will be validated against "
+"this certificate. To allow unsigned Requests, leave on default."
+msgstr ""
+"Ja izvēlēts, ienākošo apgalvojumu paraksti tiks pārbaudīti pret šo "
+"sertifikātu. Lai atļautu neparakstītus pieprasījumus, atstājiet noklusējuma "
+"vērtību."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "Verification Certificate"
+msgstr "Verifikācijas sertifikāts"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "Keypair used to sign outgoing Responses going to the Service Provider."
+msgstr ""
+"Atslēgu pāris, ko izmanto, lai parakstītu izejošās atbildes, kas tiek "
+"sūtītas pakalpojumu sniedzējam."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "Signing Keypair"
+msgstr "Paraksta atslēgu pāris"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid ""
+"When selected, incoming assertions are encrypted by the IdP using the public"
+" key of the encryption keypair. The assertion is decrypted by the SP using "
+"the the private key."
+msgstr ""
+"Kad izvēlēts, ienākošās apliecinājumus IdP šifrē, izmantojot šifrēšanas "
+"atslēgu pāra publisko atslēgu. Apliecinājumus SP atšifrē, izmantojot privāto"
+" atslēgu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py authentik/sources/saml/models.py
+msgid "Encryption Keypair"
+msgstr "Šifrēšanas atslēgu pāris"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "Default relay_state value for IDP-initiated logins"
+msgstr "Noklusējuma relay_state vērtība IdP iniciētajām pieteikšanās darbībām"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "SAML Provider"
+msgstr "SAML nodrošinātājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "SAML Providers"
+msgstr "SAML nodrošinātāji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "SAML Provider Property Mapping"
+msgstr "SAML nodrošinātāja īpašību kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "SAML Provider Property Mappings"
+msgstr "SAML pakalpojuma sniedzēja īpašību kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "SAML Provider from Metadata"
+msgstr "SAML nodrošinātājs no metadatajiem"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/saml/models.py
+msgid "SAML Providers from Metadata"
+msgstr "SAML nodrošinātāji no metadatiem"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/scim/models.py
+msgid "Default"
+msgstr "Noklusējums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/scim/models.py
+msgid "AWS"
+msgstr "AWS"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/scim/models.py
+msgid "Slack"
+msgstr "Slack"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/scim/models.py
+msgid "Base URL to SCIM requests, usually ends in /v2"
+msgstr "Bāzes URL SCIM pieprasījumiem, parasti beidzas ar /v2"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/scim/models.py
+msgid "Authentication token"
+msgstr "Autentifikācijas marķieris"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/scim/models.py
+msgid "SCIM Compatibility Mode"
+msgstr "SCIM saderības režīms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/scim/models.py
+msgid "Alter authentik behavior for vendor-specific SCIM implementations."
+msgstr ""
+"Mainīt authentik uzvedību atbilstoši SCIM ieviešanu piegādātāja specifikai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/scim/models.py
+msgid "SCIM Provider"
+msgstr "SCIM nodrošinātājs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/scim/models.py
+msgid "SCIM Providers"
+msgstr "SCIM nodrošinātāji"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/scim/models.py
+msgid "SCIM Provider Mapping"
+msgstr "SCIM nodrošinātāja kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/providers/scim/models.py
+msgid "SCIM Provider Mappings"
+msgstr "SCIM pakalpojuma sniedzēja kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/rbac/models.py
+msgid "Role"
+msgstr "Loma"
+
+# ChatGPT-translated from EN+FR
+#: authentik/rbac/models.py
+msgid "Roles"
+msgstr "Lomas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/rbac/models.py
+msgid "Initial Permissions"
+msgstr "Sākotnējās atļaujas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/rbac/models.py
+msgid "System permission"
+msgstr "Sistēmas atļauja"
+
+# ChatGPT-translated from EN+FR
+#: authentik/rbac/models.py
+msgid "System permissions"
+msgstr "Sistēmas atļaujas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/rbac/models.py
+msgid "Can view system info"
+msgstr "Var skatīt sistēmas informāciju"
+
+# ChatGPT-translated from EN+FR
+#: authentik/rbac/models.py
+msgid "Can access admin interface"
+msgstr "Var piekļūt administrēšanas saskarnei"
+
+# ChatGPT-translated from EN+FR
+#: authentik/rbac/models.py
+msgid "Can view system settings"
+msgstr "Var apskatīt sistēmas iestatījumus"
+
+# ChatGPT-translated from EN+FR
+#: authentik/rbac/models.py
+msgid "Can edit system settings"
+msgstr "Var rediģēt sistēmas iestatījumus"
+
+# ChatGPT-translated from EN+FR
+#: authentik/recovery/management/commands/create_admin_group.py
+msgid "Create admin group if the default group gets deleted."
+msgstr "Ja noklusējuma grupa tiek dzēsta, izveido administratoru grupu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/recovery/management/commands/create_recovery_key.py
+msgid "Create a Key which can be used to restore access to authentik."
+msgstr "Izveido atslēgu, ko var izmantot, lai atjaunotu piekļuvi Authentik."
+
+# ChatGPT-translated from EN+FR
+#: authentik/recovery/views.py
+msgid "Used recovery-link to authenticate."
+msgstr "Izmantot atkopšanas saiti autentifikācijai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Kerberos realm"
+msgstr "Kerberos domēns"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Custom krb5.conf to use. Uses the system one by default"
+msgstr ""
+"Pielāgotu krb5.conf failu lietošanai. Pēc noklusējuma izmanto sistēmas "
+"failu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "KAdmin server type"
+msgstr "KAdmin servera tips"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Sync users from Kerberos into authentik"
+msgstr "Sinhronizēt lietotājus no Kerberos uz authentik"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "When a user changes their password, sync it back to Kerberos"
+msgstr "Kad lietotājs maina savu paroli, sinhronizē to atpakaļ ar Kerberos."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Principal to authenticate to kadmin for sync."
+msgstr "Principāls, lai autentificētos kadmin sinhronizācijai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Password to authenticate to kadmin for sync"
+msgstr "Parole, lai autentificētos pie kadmin sinhronizācijai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid ""
+"Keytab to authenticate to kadmin for sync. Must be base64-encoded or in the "
+"form TYPE:residual"
+msgstr ""
+"Keytabs, lai autentificētos kadmin sinhronizācijai. Tam jābūt kodētam base64"
+" formātā vai formā TYPE:residual."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid ""
+"Credentials cache to authenticate to kadmin for sync. Must be in the form "
+"TYPE:residual"
+msgstr ""
+"Akreditācijas datu kešatmiņa, lai autentificētos kadmin sinhronizācijai. "
+"Jābūt formā TYPE:residual"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid ""
+"Force the use of a specific server name for SPNEGO. Must be in the form "
+"HTTP@hostname"
+msgstr ""
+"Piespiedu lietot konkrētu servera nosaukumu SPNEGO. Tam jābūt formā "
+"HTTP@hostname"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "SPNEGO keytab base64-encoded or path to keytab in the form FILE:path"
+msgstr "SPNEGO keytab faila ceļš base64 kodēts vai norādīts formā FILE:path"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Credential cache to use for SPNEGO in form type:residual"
+msgstr "Akreditācijas kešatmiņa SPNEGO lietošanai formātā TYPE:residual"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid ""
+"If enabled, the authentik-stored password will be updated upon login with "
+"the Kerberos password backend"
+msgstr ""
+"Ja aktivizēts, autentik glabātā parole tiks atjaunināta, pieslēdzoties ar "
+"Kerberos paroles aizmuguri."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Kerberos Source"
+msgstr "Kerberos avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Kerberos Sources"
+msgstr "Kerberos avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Kerberos Source Property Mapping"
+msgstr "Kerberos avota īpašību kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Kerberos Source Property Mappings"
+msgstr "Kerberos avota īpašību kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "User Kerberos Source Connection"
+msgstr "Lietotāja Kerberos avota savienojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "User Kerberos Source Connections"
+msgstr "Lietotāja Kerberos avota savienojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Group Kerberos Source Connection"
+msgstr "Grupas Kerberos avota savienojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/models.py
+msgid "Group Kerberos Source Connections"
+msgstr "Kerberos avota grupu savienojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/views.py
+msgid "SPNEGO authentication required"
+msgstr "Nepieciešama SPNEGO autentifikācija"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/kerberos/views.py
+msgid ""
+"\n"
+"                    Make sure you have valid tickets (obtainable via kinit)\n"
+"                    and configured the browser correctly.\n"
+"                    Please contact your administrator.\n"
+"                "
+msgstr "\n"
+"Pārliecinieties, ka jums ir derīgas biļetes (iegūstamas caur kinit) un ka "
+"pārlūks ir pareizi konfigurēts. Lūdzu, sazinieties ar savu administratoru."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/api.py
+msgid "Only a single LDAP Source with password synchronization is allowed"
+msgstr "Atļauta tikai viena LDAP avota ar paroles sinhronizāciju pievienošana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Server URI"
+msgstr "Servera URI"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid ""
+"Optionally verify the LDAP Server's Certificate against the CA Chain in this"
+" keypair."
+msgstr ""
+"Pēc izvēles pārbaudiet LDAP servera sertifikātu pret šīs atslēgu pāra CA "
+"ķēdi."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid ""
+"Client certificate to authenticate against the LDAP Server's Certificate."
+msgstr "Klienta sertifikāts servera LDAP sertifikāta autentifikācijai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Bind CN"
+msgstr "Sasaistīt lietotāju_DIRECTORY"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Enable Start TLS"
+msgstr "Iespējot StartTLS"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Use Server URI for SNI verification"
+msgstr "Izmantot servera URI SNI verifikācijai"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Base DN"
+msgstr "Pamata DN"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Prepended to Base DN for User-queries."
+msgstr "Pievienots pirms pamata DN lietotāju vaicājumiem."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Addition User DN"
+msgstr "Lietotāju DN pievienošana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Prepended to Base DN for Group-queries."
+msgstr "Pievienots pirms pamata DN grupu vaicājumiem."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Addition Group DN"
+msgstr "DN grupas pievienošana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Consider Objects matching this filter to be Users."
+msgstr "Apsveriet objektus, kas atbilst šim filtram, kā lietotājus."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Attribute which matches the value of `group_membership_field`."
+msgstr "Attribūts, kas atbilst `group_membership_field` vērtībai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Field which contains members of a group."
+msgstr "Lauks, kas satur grupas dalībniekus."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Consider Objects matching this filter to be Groups."
+msgstr "Uzskati, ka šiem filtram atbilstīgi objekti ir grupas."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Field which contains a unique Identifier."
+msgstr "Lauks, kas satur unikālu identifikatoru."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Update internal authentik password when login succeeds with LDAP"
+msgstr ""
+"Atjaunināt iekšējo Authentik paroli, kad pieslēgšanās ar LDAP ir veiksmīga."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid ""
+"When a user changes their password, sync it back to LDAP. This can only be "
+"enabled on a single LDAP source."
+msgstr ""
+"Kad lietotājs maina savu paroli, sinhronizējiet to atpakaļ uz LDAP. To var "
+"iespējot tikai vienā LDAP avotā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid ""
+"Lookup group membership based on a user attribute instead of a group "
+"attribute. This allows nested group resolution on systems like FreeIPA and "
+"Active Directory"
+msgstr ""
+"Atrast grupas piederību, balstoties uz lietotāja atribūtu, nevis grupas "
+"atribūtu. Tas ļauj atrisināt ligzdotus grupas nosacījumus uz tādām sistēmām "
+"kā FreeIPA un Active Directory."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid ""
+"Delete authentik users and groups which were previously supplied by this "
+"source, but are now missing from it."
+msgstr ""
+"Dzēst Authentik lietotājus un grupas, kas iepriekš tika nodrošināti no šī "
+"avota, bet tagad no tā iztrūkst."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "LDAP Source"
+msgstr "LDAP avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "LDAP Sources"
+msgstr "LDAP avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "LDAP Source Property Mapping"
+msgstr "LDAP avota īpašību kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "LDAP Source Property Mappings"
+msgstr "LDAP avota īpašību kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid ""
+"Unique ID used while checking if this object still exists in the directory."
+msgstr ""
+"Unikāls ID, ko izmanto, lai pārbaudītu, vai šis objekts joprojām pastāv "
+"direktorijā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "User LDAP Source Connection"
+msgstr "Lietotāja LDAP avota savienojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "User LDAP Source Connections"
+msgstr "Lietotāja LDAP avota savienojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Group LDAP Source Connection"
+msgstr "Grupas LDAP avota savienojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/models.py
+msgid "Group LDAP Source Connections"
+msgstr "Grupas LDAP avota savienojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/ldap/signals.py
+msgid "Password does not match Active Directory Complexity."
+msgstr "Parole neatbilst Active Directory sarežģītības prasībām."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/clients/oauth2.py
+msgid "No token received."
+msgstr "Nav saņemts pilnvarojums."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "HTTP Basic Authentication"
+msgstr "HTTP pamata autentifikācija"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Include the client ID and secret as request parameters"
+msgstr "Pievienojiet klienta ID un slepeno atslēgu kā pieprasījuma parametrus"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Request Token URL"
+msgstr "Pieprasījuma pilnvaras URL"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid ""
+"URL used to request the initial token. This URL is only required for OAuth "
+"1."
+msgstr ""
+"URL, ko izmanto, lai pieprasītu sākotnējo piekļuves pilnvaru. Šis URL ir "
+"nepieciešams tikai OAuth 1.0."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Authorization URL"
+msgstr "Autorizācijas URL"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "URL the user is redirect to to conest the flow."
+msgstr "Lietotāja novirzīšanas URL, lai piekristu plūsmai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Access Token URL"
+msgstr "Piekļuves marķiera URL"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "URL used by authentik to retrieve tokens."
+msgstr "URL, ko lieto Authentik, lai iegūtu žetonus."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Profile URL"
+msgstr "Profila URL"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "URL used by authentik to get user information."
+msgstr "URL, kuru Authentik izmanto lietotāja informācijas iegūšanai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Additional Scopes"
+msgstr "Papildu darbības jomas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid ""
+"How to perform authentication during an authorization_code token request "
+"flow"
+msgstr ""
+"Kā veikt autentifikāciju autorizācijas koda pieprasījuma plūsmas laikā"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "OAuth Source"
+msgstr "OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "OAuth Sources"
+msgstr "OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "GitHub OAuth Source"
+msgstr "GitHub OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "GitHub OAuth Sources"
+msgstr "GitHub OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "GitLab OAuth Source"
+msgstr "GitLab OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "GitLab OAuth Sources"
+msgstr "GitLab OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Twitch OAuth Source"
+msgstr "Twitch OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Twitch OAuth Sources"
+msgstr "Twitch OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Mailcow OAuth Source"
+msgstr "Mailcow OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Mailcow OAuth Sources"
+msgstr "Mailcow OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Twitter OAuth Source"
+msgstr "Twitter OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Twitter OAuth Sources"
+msgstr "Twitter OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Facebook OAuth Source"
+msgstr "Facebook OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Facebook OAuth Sources"
+msgstr "Facebook OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Discord OAuth Source"
+msgstr "Discord OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Discord OAuth Sources"
+msgstr "Discord OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Patreon OAuth Source"
+msgstr "Patreon OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Patreon OAuth Sources"
+msgstr "Patreon OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Google OAuth Source"
+msgstr "Google OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Google OAuth Sources"
+msgstr "Google OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Azure AD OAuth Source"
+msgstr "Azure AD OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Azure AD OAuth Sources"
+msgstr "Azure AD OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "OpenID OAuth Source"
+msgstr "OpenID OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "OpenID OAuth Sources"
+msgstr "Atvērtā ID OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Apple OAuth Source"
+msgstr "Apple OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Apple OAuth Sources"
+msgstr "Apple OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Okta OAuth Source"
+msgstr "Okta OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Okta OAuth Sources"
+msgstr "Okta OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Reddit OAuth Source"
+msgstr "Reddit OAuth avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Reddit OAuth Sources"
+msgstr "Reddit OAuth avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "OAuth Source Property Mapping"
+msgstr "OAuth avota īpašību kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "OAuth Source Property Mappings"
+msgstr "OAuth avota īpašību kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "User OAuth Source Connection"
+msgstr "Lietotāja OAuth avota pieslēgums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "User OAuth Source Connections"
+msgstr "Lietotāja OAuth avota pieslēgumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Group OAuth Source Connection"
+msgstr "Grupas OAuth avota pieslēgums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/models.py
+msgid "Group OAuth Source Connections"
+msgstr "Grupas OAuth avota savienojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/oauth/views/callback.py
+msgid "Authentication failed: {reason}"
+msgstr "Autentifikācija neizdevās: {reason}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid "Client identifier used to talk to Plex."
+msgstr "Klienta identifikators, kas tiek izmantots saziņai ar Plex."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid ""
+"Which servers a user has to be a member of to be granted access. Empty list "
+"allows every server."
+msgstr ""
+"Kuriem serveriem lietotājam jābūt dalībniekam, lai piekļuve tiktu piešķirta."
+" Tukšs saraksts ļauj piekļuvi visiem serveriem."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid "Allow friends to authenticate, even if you don't share a server."
+msgstr "Atļaut draugiem autentificēties, pat ja jums nav kopīga servera."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid "Plex token used to check friends"
+msgstr "Plex talons, ko izmanto, lai pārbaudītu draugus"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid "Plex Source"
+msgstr "Plex avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid "Plex Sources"
+msgstr "Plex avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid "Plex Source Property Mapping"
+msgstr "Plex avota īpašuma kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid "Plex Source Property Mappings"
+msgstr "Plex avota īpašību kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid "User Plex Source Connection"
+msgstr "Lietotāja pieslēgšanās Plex avotam"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid "User Plex Source Connections"
+msgstr "Lietotāja Plex avotu pieslēgumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid "Group Plex Source Connection"
+msgstr "Grupas Plex avota savienojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/plex/models.py
+msgid "Group Plex Source Connections"
+msgstr "Grupas autentifikācijas avota savienojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "Redirect Binding"
+msgstr "Pāradresācijas saistīšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "POST Binding"
+msgstr "POST piesaiste"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "POST Binding with auto-confirmation"
+msgstr "POST piesaiste ar autoapstiprinājumu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "Flow used before authentication."
+msgstr "Plūsma, ko izmantot pirms autentifikācijas."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "Issuer"
+msgstr "Izdevējs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "Also known as Entity ID. Defaults the Metadata URL."
+msgstr "Pazīstams arī kā Entity ID. Noklusējuma Metadatu URL."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "SSO URL"
+msgstr "SSO URL"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "URL that the initial Login request is sent to."
+msgstr "Sākotnējā pieteikšanās pieprasījuma URL adrese."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "SLO URL"
+msgstr "SLO URL adrese"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "Optional URL if your IDP supports Single-Logout."
+msgstr "Neobligāta URL adrese, ja jūsu IDP atbalsta viena seansa izbeigšanu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid ""
+"Allows authentication flows initiated by the IdP. This can be a security "
+"risk, as no validation of the request ID is done."
+msgstr ""
+"Atļaut autentifikācijas plūsmas, ko uzsāk IdP. Tas var radīt drošības risku,"
+" jo pieprasījuma ID netiek pārbaudīts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid ""
+"NameID Policy sent to the IdP. Can be unset, in which case no Policy is "
+"sent."
+msgstr ""
+"NameID politika nosūtīta uz IdP. Iespējams atstāt nedefinētu, šādā gadījumā "
+"politika netiek nosūtīta."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "Delete temporary users after"
+msgstr "Izdzēst pagaidu lietotājus pēc"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid ""
+"Time offset when temporary users should be deleted. This only applies if "
+"your IDP uses the NameID Format 'transient', and the user doesn't log out "
+"manually. (Format: hours=1;minutes=2;seconds=3)."
+msgstr ""
+"Pagaidu lietotāju dzēšanas laika aizkave. Tas attiecas tikai tad, ja jūsu "
+"identitātes pakalpojumu sniedzējs izmanto NameID formātu 'transient', un "
+"lietotājs neizlogojas manuāli. (Formāts: stundas=1; minūtes=2; sekundes=3)."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid ""
+"Keypair used to sign outgoing Responses going to the Identity Provider."
+msgstr ""
+"Atslēgu pāris, kas tiek izmantots, lai parakstītu izejošās atbildes, kas "
+"tiek sūtītas uz Identitātes Piegādātāju."
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "SAML Source"
+msgstr "SAML avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "SAML Sources"
+msgstr "SAML avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "SAML Source Property Mapping"
+msgstr "SAML avota īpašību kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "SAML Source Property Mappings"
+msgstr "SAML avota īpašību kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "User SAML Source Connection"
+msgstr "Lietotāja SAML avota savienojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "User SAML Source Connections"
+msgstr "Lietotāja SAML avotu savienojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "Group SAML Source Connection"
+msgstr "Grupas SAML avota savienojums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/models.py
+msgid "Group SAML Source Connections"
+msgstr "Grupas SAML avota savienojumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/saml/views.py
+msgid "Continue to {source_name}"
+msgstr "Turpiniet uz {source_name}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/scim/models.py
+msgid "SCIM Source"
+msgstr "SCIM avots"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/scim/models.py
+msgid "SCIM Sources"
+msgstr "SCIM avoti"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/scim/models.py
+msgid "SCIM Source Property Mapping"
+msgstr "SCIM avota īpašību kartēšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/sources/scim/models.py
+msgid "SCIM Source Property Mappings"
+msgstr "SCIM avota īpašību kartējumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_duo/models.py
+msgid "Duo Authenticator Setup Stage"
+msgstr "Duo autentifikatora iestatīšanas stadija"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_duo/models.py
+msgid "Duo Authenticator Setup Stages"
+msgstr "Duo autentifikatora iestatīšanas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_duo/models.py
+msgid "Duo Device"
+msgstr "Duo ierīce"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_duo/models.py
+msgid "Duo Devices"
+msgstr "Duo ierīces"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/models.py
+msgid "Email OTP"
+msgstr "E-pasta OTP"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/models.py
+#: authentik/stages/email/models.py
+msgid ""
+"When enabled, global Email connection settings will be used and connection "
+"settings below will be ignored."
+msgstr ""
+"Ja tas ir iespējots, tiks izmantoti globālie e-pasta savienojumu "
+"iestatījumi, un zemāk minētie savienojumu iestatījumi tiks ignorēti."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/models.py
+#: authentik/stages/email/models.py
+msgid "Time the token sent is valid (Format: hours=3,minutes=17,seconds=300)."
+msgstr ""
+"Nosūtītā pilnvarojuma derīguma laiks (Formāts: hours=3, minutes=17, "
+"seconds=300)."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/models.py
+msgid "Email Authenticator Setup Stage"
+msgstr "E-pasta autentifikatora iestatīšanas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/models.py
+msgid "Email Authenticator Setup Stages"
+msgstr "E-pasta autentifikatora iestatīšanas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/models.py
+#: authentik/stages/authenticator_email/stage.py
+#: authentik/stages/email/stage.py
+msgid "Exception occurred while rendering E-mail template"
+msgstr "Notikusi kļūda, veidojot e-pasta veidni."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/models.py
+msgid "Email Device"
+msgstr "E-pasta ierīce"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/models.py
+msgid "Email Devices"
+msgstr "E-pasta ierīces"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/stage.py
+#: authentik/stages/authenticator_sms/stage.py
+#: authentik/stages/authenticator_totp/stage.py
+msgid "Code does not match"
+msgstr "Kods nesakrīt"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/stage.py
+msgid "Invalid email"
+msgstr "Nederīgs e-pasts"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/templates/email/email_otp.html
+#: authentik/stages/email/templates/email/password_reset.html
+msgid ""
+"\n"
+"      Hi %(username)s,\n"
+"      "
+msgstr "\nSveiki %(username)s,\n"
+"      "
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/templates/email/email_otp.html
+msgid ""
+"\n"
+"          Email MFA code.\n"
+"          "
+msgstr "\nMFA kods nosūtīts e-pastā.\n"
+"          "
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/templates/email/email_otp.html
+msgid ""
+"\n"
+"    If you did not request this code, please ignore this email. The code above is valid for %(expires)s.\n"
+"    "
+msgstr ""
+"\nJa jūs šo kodu neesat pieprasījis, lūdzu, ignorējiet šo e-pasta ziņojumu. "
+"Iepriekš minētais kods ir derīgs %(expires)s."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/templates/email/email_otp.txt
+#: authentik/stages/email/templates/email/password_reset.txt
+msgid "Hi %(username)s,"
+msgstr "Sveiki, %(username)s,"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/templates/email/email_otp.txt
+msgid ""
+"\n"
+"Email MFA code\n"
+msgstr "\nMFA kods e-pastā\n"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_email/templates/email/email_otp.txt
+msgid ""
+"\n"
+"If you did not request this code, please ignore this email. The code above is valid for %(expires)s.\n"
+msgstr ""
+"\nJa jūs nepieprasījāt šo kodu, lūdzu, ignorējiet šo e-pastu. Iepriekšminētais"
+" kods ir derīgs %(expires)s.\n"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_sms/models.py
+msgid ""
+"When enabled, the Phone number is only used during enrollment to verify the "
+"users authenticity. Only a hash of the phone number is saved to ensure it is"
+" not reused in the future."
+msgstr ""
+"Kad ir iespējots, tālruņa numurs tiek izmantots tikai reģistrācijas laikā "
+"lietotāja autentiskuma pārbaudei. Lai nodrošinātu, ka tas netiek atkārtoti "
+"izmantots nākotnē, tiek saglabāts tikai tālruņa numura hash."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_sms/models.py
+msgid "Optionally modify the payload being sent to custom providers."
+msgstr ""
+"Vai nepieciešams, modificējiet nosūtīto datus pielāgotajiem nodrošinātājiem."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_sms/models.py
+msgid "Use this code to authenticate in authentik: {token}"
+msgstr "Lietojiet šo kodu, lai autentificētos pakalpojumā Authentik: {token}"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_sms/models.py
+msgid "SMS Authenticator Setup Stage"
+msgstr "SMS autentifikatora iestatīšanas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_sms/models.py
+msgid "SMS Authenticator Setup Stages"
+msgstr "SMS autentifikatora iestatīšanas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_sms/models.py
+msgid "SMS Device"
+msgstr "SMS ierīce"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_sms/models.py
+msgid "SMS Devices"
+msgstr "SMS ierīces"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_sms/stage.py
+msgid "Invalid phone number"
+msgstr "Nederīgs tālruņa numurs"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_static/models.py
+msgid "Static Authenticator Setup Stage"
+msgstr "Statiskā autentifikatora iestatīšanas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_static/models.py
+msgid "Static Authenticator Setup Stages"
+msgstr "Statiskā autentifikatora iestatīšanas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_static/models.py
+msgid "Static Device"
+msgstr "Statiskā ierīce"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_static/models.py
+msgid "Static Devices"
+msgstr "Statiskās ierīces"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_static/models.py
+msgid "Static Token"
+msgstr "Statiskā pilnvara"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_static/models.py
+msgid "Static Tokens"
+msgstr "Statiskie žetoni"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_totp/models.py
+msgid "6 digits, widely compatible"
+msgstr "6 cipari, plaša saderība"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_totp/models.py
+msgid "8 digits, not compatible with apps like Google Authenticator"
+msgstr "8 cipari, nav saderīgi ar tādām lietotnēm kā Google Authenticator"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_totp/models.py
+msgid "TOTP Authenticator Setup Stage"
+msgstr "TOTP autentifikatora iestatīšanas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_totp/models.py
+msgid "TOTP Authenticator Setup Stages"
+msgstr "TOTP autentifikatora iestatīšanas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_totp/models.py
+msgid "TOTP Device"
+msgstr "TOTP ierīce"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_totp/models.py
+msgid "TOTP Devices"
+msgstr "TOTP ierīces"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/challenge.py
+msgid ""
+"Invalid Token. Please ensure the time on your device is accurate and try "
+"again."
+msgstr ""
+"Nederīgs marķieris. Lūdzu, pārliecinieties, ka jūsu ierīces laiks ir "
+"precīzs, un mēģiniet vēlreiz."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/challenge.py
+#: authentik/stages/authenticator_webauthn/stage.py
+msgid "Invalid device type. Contact your {brand} administrator for help."
+msgstr ""
+"Nederīgs ierīces tips. Sazinieties ar {brand} administratoru, lai saņemtu "
+"palīdzību."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/models.py
+msgid "Static"
+msgstr "Statiskā"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/models.py
+msgid "TOTP"
+msgstr "TOTP"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/models.py
+msgid "WebAuthn"
+msgstr "WebAuthn"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/models.py
+msgid "Duo"
+msgstr "Duo"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/models.py
+msgid "SMS"
+msgstr "SMS"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/models.py
+msgid ""
+"Stages used to configure Authenticator when user doesn't have any compatible"
+" devices. After this configuration Stage passes, the user is not prompted "
+"again."
+msgstr ""
+"Posmi autentifikatora konfigurēšanai, ja lietotājam nav saderīgu ierīču. Kad"
+" šis posms ir paveikts, lietotājam netiek prasīta atkārtota konfigurācija."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/models.py
+msgid "Device classes which can be used to authenticate"
+msgstr "Ierīču klases, kas var tikt izmantotas autentifikācijai"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/models.py
+msgid ""
+"If any of the user's device has been used within this threshold, this stage "
+"will be skipped"
+msgstr ""
+"Ja kāda no lietotāja ierīcēm ir izmantota šajā slieksnī, šis posms tiks "
+"izlaists"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/models.py
+msgid "Enforce user verification for WebAuthn devices."
+msgstr "Uzspiest lietotāja verifikāciju WebAuthn ierīcēm."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/models.py
+msgid "Authenticator Validation Stage"
+msgstr "Autentifikatora validācijas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/models.py
+msgid "Authenticator Validation Stages"
+msgstr "Autentifikatora verifikācijas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_validate/stage.py
+msgid "No (allowed) MFA authenticator configured."
+msgstr "Nav konfigurēts (atļauts) MFA autentifikators."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Authenticator Setup Stage"
+msgstr "WebAuthn autentifikatora iestatīšanas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Authenticator Setup Stages"
+msgstr "WebAuthn autentifikatora iestatīšanas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Device"
+msgstr "WebAuthn ierīce"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Devices"
+msgstr "WebAuthn ierīces"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Device type"
+msgstr "WebAuthn ierīces tips"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Device types"
+msgstr "WebAuthn ierīču veidi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/captcha/models.py
+msgid "Public key, acquired your captcha Provider."
+msgstr "Publiskā atslēga, iegūta no jūsu captcha nodrošinātāja."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/captcha/models.py
+msgid "Private key, acquired your captcha Provider."
+msgstr "Privātā atslēga, iegūta no jūsu captchas nodrošinātāja."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/captcha/models.py
+msgid ""
+"When enabled and the received captcha score is outside of the given "
+"threshold, the stage will show an error message. When not enabled, the flow "
+"will continue, but the data from the captcha will be available in the "
+"context for policy decisions"
+msgstr ""
+"Ja ir iespējots un saņemtais captcha rezultāts ir ārpus dotā sliekšņa, posms"
+" parādīs kļūdas ziņojumu. Ja nav iespējots, plūsma turpināsies, bet captcha "
+"dati būs pieejami kontekstā politikas lēmumiem."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/captcha/models.py
+msgid "Captcha Stage"
+msgstr "Captcha posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/captcha/models.py
+msgid "Captcha Stages"
+msgstr "Captcha posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/captcha/stage.py
+msgid "Invalid captcha response. Retrying may solve this issue."
+msgstr ""
+"Nederīga captcha atbilde. Mēģinot vēlreiz, šī problēma var tikt atrisināta."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/captcha/stage.py
+msgid "Invalid captcha response"
+msgstr "Nederīga captcha atbilde"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/captcha/stage.py
+msgid "Failed to validate token"
+msgstr "Neizdevās validēt pilnvaru"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/consent/models.py
+msgid ""
+"Offset after which consent expires. (Format: hours=1;minutes=2;seconds=3)."
+msgstr ""
+"Pēc cik ilga laika beigsies piekrišanas derīgums (Formāts: "
+"hours=1;minutes=2;seconds=3)."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/consent/models.py
+msgid "Consent Stage"
+msgstr "Piekrišanas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/consent/models.py
+msgid "Consent Stages"
+msgstr "Piekrišanas etapi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/consent/models.py
+msgid "User Consent"
+msgstr "Lietotāja piekrišana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/consent/models.py
+msgid "User Consents"
+msgstr "Lietotāja piekrišanas"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/consent/stage.py
+msgid "Invalid consent token, re-showing prompt"
+msgstr "Nederīgs piekrišanas žetons, atkārtoti parādot uzvedni"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/deny/models.py
+msgid "Deny Stage"
+msgstr "Noraidīšanas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/deny/models.py
+msgid "Deny Stages"
+msgstr "Noraidīšanas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/dummy/models.py
+msgid "Dummy Stage"
+msgstr "Fiktīvā posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/dummy/models.py
+msgid "Dummy Stages"
+msgstr "Mākslīgie posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/flow.py
+msgid "Continue to confirm this email address."
+msgstr "Turpiniet apstiprināt šo e-pasta adresi."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/flow.py
+msgid "Link was already used, please request a new link."
+msgstr "Šī saite jau ir izmantota, lūdzu, pieprasiet jaunu saiti."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/models.py
+msgid "Password Reset"
+msgstr "Paroles atiestatīšana"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/models.py
+msgid "Account Confirmation"
+msgstr "Konta apstiprinājums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/models.py
+msgid "Activate users upon completion of stage."
+msgstr "Aktivizēt lietotājus pēc posma pabeigšanas."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/models.py
+msgid "Email Stage"
+msgstr "E-pasta posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/models.py
+msgid "Email Stages"
+msgstr "E-pasta posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/stage.py
+msgid "Successfully verified Email."
+msgstr "E-pasts veiksmīgi verificēts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/stage.py
+msgid "No pending user."
+msgstr "Nav gaidošu lietotāju."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/stage.py
+msgid "Email sent."
+msgstr "E-pasts nosūtīts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/stage.py
+msgid "Email Successfully sent."
+msgstr "E-pasts veiksmīgi nosūtīts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/account_confirmation.html
+#: authentik/stages/email/templates/email/account_confirmation.txt
+msgid "Welcome!"
+msgstr "Laipni lūdzam!"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/account_confirmation.html
+msgid ""
+"We're excited to have you get started. First, you need to confirm your "
+"account. Just press the button below."
+msgstr ""
+"Mēs esam priecīgi, ka varat sākt. Vispirms jums jāapstiprina savs konts. "
+"Vienkārši nospiediet zemāk esošo pogu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/account_confirmation.html
+msgid "Confirm Account"
+msgstr "Apstiprināt Kontu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/account_confirmation.html
+msgid ""
+"\n"
+"    If that doesn't work, copy and paste the following link in your browser: %(url)s\n"
+"    "
+msgstr ""
+"\n"
+"Ja tas nedarbojas, kopējiet un ielīmējiet šo saiti savā pārlūkprogrammā: "
+"%(url)s"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/account_confirmation.txt
+msgid ""
+"We're excited to have you get started. First, you need to confirm your "
+"account. Just open the link below."
+msgstr ""
+"Mēs priecājamies, ka sāksit izmantot mūsu pakalpojumus. Vispirms jums "
+"jāapstiprina savs konts. Vienkārši atveriet zemāk esošo saiti."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/event_notification.html
+msgid ""
+"\n"
+"    This email was sent from the notification transport <code>%(name)s</code>.\n"
+"    "
+msgstr ""
+"\n"
+"Šis e-pasts tika nosūtīts no paziņojumu transporta <code>%(name)s</code>."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/event_notification.txt
+msgid "Dear authentik user,"
+msgstr "Cienījamais Authentik lietotāj!"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/event_notification.txt
+msgid "The following notification was created:"
+msgstr "Tika izveidots šāds paziņojums:"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/event_notification.txt
+msgid "Additional attributes:"
+msgstr "Papildu atribūti:"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/event_notification.txt
+msgid ""
+"\n"
+"This email was sent from the notification transport %(name)s.\n"
+msgstr "\nŠis e-pasts tika nosūtīts no paziņojumu transporta %(name)s.\n"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/password_reset.html
+msgid ""
+"\n"
+"          You recently requested to change your password for your authentik account. Use the button below to set a new password.\n"
+"          "
+msgstr ""
+"\nNesen pieprasījāt pārmainīt savu parole authentik kontā. Izmantojiet zemāk "
+"esošo pogu, lai iestatītu jaunu paroli.\n"
+"          "
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/password_reset.html
+msgid ""
+"\n"
+"    If you did not request a password change, please ignore this email. The link above is valid for %(expires)s.\n"
+"    "
+msgstr ""
+"\nJa jūs nepieprasījāt paroles maiņu, lūdzu, ignorējiet šo e-pastu. Iepriekš "
+"minētā saite ir derīga %(expires)s.\n"
+"    "
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/password_reset.txt
+msgid ""
+"\n"
+"You recently requested to change your password for your authentik account. Use the link below to set a new password.\n"
+msgstr ""
+"\nNesen pieprasījāt nomainīt sava authentik konta paroli. Izmantojiet zemāk "
+"esošo saiti, lai iestatītu jaunu paroli.\n"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/password_reset.txt
+msgid ""
+"\n"
+"If you did not request a password change, please ignore this email. The link above is valid for %(expires)s.\n"
+msgstr ""
+"\nJa jūs nepieprasījāt paroles maiņu, lūdzu, ignorējiet šo e-pastu. Iepriekš "
+"minētā saite ir derīga %(expires)s.\n"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/setup.html
+msgid "authentik Test-Email"
+msgstr "Authentik testa e-pasts"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/setup.html
+msgid ""
+"\n"
+"                    This is a test email to inform you, that you've successfully configured authentik emails.\n"
+"                    "
+msgstr ""
+"\nŠis ir testa e-pasts, lai informētu jūs, ka jūs veiksmīgi konfigurējāt "
+"authentik e-pastus.\n"
+"                    "
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/email/templates/email/setup.txt
+msgid ""
+"\n"
+"This is a test email to inform you, that you've successfully configured authentik emails.\n"
+msgstr ""
+"\nŠis ir testa e-pasts, lai informētu jūs, ka jums ir veiksmīgi konfigurēti "
+"Authentik e-pasti.\n"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/api.py
+msgid "When no user fields are selected, at least one source must be selected"
+msgstr "Ja lietotāja lauki nav atlasīti, jāatlasa vismaz viens avots."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/models.py
+msgid ""
+"Fields of the user object to match against. (Hold shift to select multiple "
+"options)"
+msgstr ""
+"Lietotāja objekta lauki, ar kuriem veikt salīdzinājumu. (Turiet Shift, lai "
+"atlasītu vairākas opcijas)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/models.py
+msgid "When enabled, user fields are matched regardless of their casing."
+msgstr ""
+"Ja ieslēgts, lietotāja lauki tiek salīdzināti, neņemot vērā burtu lielumu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/models.py
+msgid ""
+"When a valid username/email has been entered, and this option is enabled, "
+"the user's username and avatar will be shown. Otherwise, the text that the "
+"user entered will be shown"
+msgstr ""
+"Kad ievadīts derīgs lietotājvārds/e-pasts un šī opcija ir aktivizēta, tiks "
+"parādīts lietotājvārds un avatārs. Citādi tiks parādīts lietotāja ievadītais"
+" teksts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/models.py
+msgid ""
+"When enabled, the stage will succeed and continue even when incorrect user "
+"info is entered."
+msgstr ""
+"Kad iespējojis, posms izdosies un turpināsies pat tad, ja ievadītā lietotāja"
+" informācija ir nekorekta."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/models.py
+msgid ""
+"Show the user the 'Remember me on this device' toggle, allowing repeat users"
+" to skip straight to entering their password."
+msgstr ""
+"Rādīt lietotājam pārslēgu 'Atcerēties mani šajā ierīcē', ļaujot atkārtotiem "
+"lietotājiem uzreiz ievadīt savu paroli."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/models.py
+msgid "Optional enrollment flow, which is linked at the bottom of the page."
+msgstr "Izvēles reģistrācijas plūsma, kas pieejama lapas apakšā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/models.py
+msgid "Optional recovery flow, which is linked at the bottom of the page."
+msgstr "Izvēles atkopšanas process, kas ir pieejams lapas apakšā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/models.py
+msgid "Optional passwordless flow, which is linked at the bottom of the page."
+msgstr "Neobligāta plūsmu bez paroles piekļuve, kas ir pieejama lapas apakšā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/models.py
+msgid "Specify which sources should be shown."
+msgstr "Norādiet, kurus avotus rādīt."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/models.py
+msgid "Identification Stage"
+msgstr "Identifikācijas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/models.py
+msgid "Identification Stages"
+msgstr "Identifikācijas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/stage.py
+msgid "Log in"
+msgstr "Pieteikties"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/identification/stage.py
+msgid "Continue"
+msgstr "Turpināt"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/invitation/models.py
+msgid ""
+"If this flag is set, this Stage will jump to the next Stage when no "
+"Invitation is given. By default this Stage will cancel the Flow when no "
+"invitation is given."
+msgstr ""
+"Ja šis karogs ir ieslēgts, šis etaps pāries uz nākamo etapu, ja netiks "
+"sniegts uzaicinājums. Pēc noklusējuma šis etaps atcels plūsmu, ja nebūs "
+"uzaicinājuma."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/invitation/models.py
+msgid "Invitation Stage"
+msgstr "Ielūguma posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/invitation/models.py
+msgid "Invitation Stages"
+msgstr "Ielūguma posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/invitation/models.py
+msgid "When set, only the configured flow can use this invitation."
+msgstr ""
+"Kad ir aktivizēts, tikai konfigurētais plūsmas var izmantot šo ielūgumu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/invitation/models.py
+msgid "When enabled, the invitation will be deleted after usage."
+msgstr "Kad iespējots, ielūgums tiks dzēsts pēc izmantošanas."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/invitation/models.py
+msgid "Optional fixed data to enforce on user enrollment."
+msgstr "Izvēles fiksētie dati, kas jāpiemēro lietotāja reģistrācijas laikā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/invitation/models.py
+msgid "Invitation"
+msgstr "Ielūgums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/invitation/models.py
+msgid "Invitations"
+msgstr "Uzaicinājumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/invitation/stage.py
+msgid "Invalid invite/invite not found"
+msgstr "Nederīgs uzaicinājums/uzaicinājums nav atrasts"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/password/models.py
+msgid "User database + standard password"
+msgstr "Lietotāju datubāze + standarta parole"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/password/models.py
+msgid "User database + app passwords"
+msgstr "Lietotāju datubāze + lietotnes paroles"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/password/models.py
+msgid "User database + LDAP password"
+msgstr "Lietotāju datubāze + LDAP parole"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/password/models.py
+msgid "User database + Kerberos password"
+msgstr "Lietotāju datubāze + Kerberos parole"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/password/models.py
+msgid "Selection of backends to test the password against."
+msgstr "Aizmugursistēmu atlase, lai pārbaudītu paroli."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/password/models.py
+msgid ""
+"How many attempts a user has before the flow is canceled. To lock the user "
+"out, use a reputation policy and a user_write stage."
+msgstr ""
+"Cik daudz mēģinājumu lietotājam ir, pirms plūsma tiek atcelta. Lai lietotājs"
+" tiktu bloķēts, izmantojiet reputācijas politiku un user_write posmu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/password/models.py
+msgid ""
+"When enabled, provides a 'show password' button with the password input "
+"field."
+msgstr ""
+"Ja iespējots, pievieno pogu \"Parādīt paroli\" blakus paroles ievades "
+"laukam."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/password/models.py
+msgid "Password Stage"
+msgstr "Paroles posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/password/models.py
+msgid "Password Stages"
+msgstr "Paroles etapi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/password/stage.py
+msgid "Invalid password"
+msgstr "Nederīga parole"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Text: Simple Text input"
+msgstr "Teksts: vienkārša teksta ievade"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Text area: Multiline Text Input."
+msgstr "Teksta lauks: Daudzrindu teksta ievade."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Text (read-only): Simple Text input, but cannot be edited."
+msgstr "Teksts (tikai lasāms): Vienkāršs teksta ievads, bet nevar rediģēt."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Text area (read-only): Multiline Text input, but cannot be edited."
+msgstr ""
+"Teksta laukums (tikai lasāms): Daudzrindu teksta ievade, bet nevar rediģēt."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid ""
+"Username: Same as Text input, but checks for and prevents duplicate "
+"usernames."
+msgstr ""
+"Lietotājvārds: Vienāds ar teksta ievadi, bet pārbauda un novērš "
+"lietotājvārdu dublēšanos."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Email: Text field with Email type."
+msgstr "E-pasts: Teksta lauks ar e-pasta tipu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid ""
+"Password: Masked input, multiple inputs of this type on the same prompt need"
+" to be identical."
+msgstr ""
+"Parole: Slēpta ievade, lai visi šī tipa ievades lauki vienā pieprasījumā "
+"būtu identiski."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Fixed choice field rendered as a group of radio buttons."
+msgstr "Lauka ar ierobežotu izvēli attēlojums kā radio pogu grupa."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Fixed choice field rendered as a dropdown."
+msgstr "Fiksēts izvēles lauks attēlots kā nolaižamā izvēlne."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid ""
+"File: File upload for arbitrary files. File content will be available in "
+"flow context as data-URI"
+msgstr ""
+"Fails: Ļauj augšupielādēt failus pēc izvēles. Faila saturs būs pieejams "
+"plūsmas kontekstā kā data-URI."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Separator: Static Separator Line"
+msgstr "Atdalītājs: Statiskā atdalīšanas līnija"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Hidden: Hidden field, can be used to insert data into form."
+msgstr "Slēpts: Slēptais lauks, var izmantot, lai ievietotu datus formā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Static: Static value, displayed as-is."
+msgstr "Statiskā: Statiskā vērtība, attēlota tāda, kāda tā ir."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "authentik: Selection of locales authentik supports"
+msgstr "authentik: autentikas atbalstīto vietējo valodu izvēle"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Name of the form field, also used to store the value"
+msgstr "Formas lauka nosaukums, arī izmantots vērtības glabāšanai"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid ""
+"Optionally provide a short hint that describes the expected input value. "
+"When creating a fixed choice field, enable interpreting as expression and "
+"return a list to return multiple choices."
+msgstr ""
+"Neobligāti norādiet īsu ieteikumu, kas apraksta sagaidāmo ievades vērtību. "
+"Veidojot fiksētas izvēles lauku, iespējojiet interpretāciju kā izteiksmi un "
+"atgrieziet sarakstu, lai nodrošinātu vairākas izvēles."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid ""
+"Optionally pre-fill the input with an initial value. When creating a fixed "
+"choice field, enable interpreting as expression and return a list to return "
+"multiple default choices."
+msgstr ""
+"Izvēles gadījumā iepriekš aizpildiet lauku ar sākotnējo vērtību. Izveidojot "
+"fiksēto izvēles lauku, iespējot interpretāciju kā izteiksmi un atgriezt "
+"sarakstu, lai atgrieztu vairākas noklusējuma izvēles."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Prompt"
+msgstr "Aicinājums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Prompts"
+msgstr "Pieprasījumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Prompt Stage"
+msgstr "Uzvednes posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/models.py
+msgid "Prompt Stages"
+msgstr "Uzvedņu posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/prompt/stage.py
+msgid "Passwords don't match."
+msgstr "Paroles nesakrīt."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/redirect/api.py
+msgid "Target URL should be present when mode is Static."
+msgstr "Mērķa URL jābūt, ja režīms ir Statiskā."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/redirect/api.py
+msgid "Target Flow should be present when mode is Flow."
+msgstr "Mērķa plūsmai jābūt pieejamai, kad režīms ir Plūsma."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/redirect/models.py
+msgid "Redirect Stage"
+msgstr "Pāradresācijas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/redirect/models.py
+msgid "Redirect Stages"
+msgstr "Pāradresācijas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_delete/models.py
+msgid "User Delete Stage"
+msgstr "Lietotāja dzēšanas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_delete/models.py
+msgid "User Delete Stages"
+msgstr "Lietotāja dzēšanas etapi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_delete/stage.py
+msgid "No Pending User."
+msgstr "Nav gaidošu lietotāju."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_login/models.py
+msgid "Bind sessions created by this stage to the configured network"
+msgstr "Sesijas, ko izveido šis posms, sasaistīt ar konfigurēto tīklu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_login/models.py
+msgid "Bind sessions created by this stage to the configured GeoIP location"
+msgstr ""
+"Savienot šajā posmā izveidotos sesijas ar konfigurēto GeoIP atrašanās vietu"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_login/models.py
+msgid "Terminate all other sessions of the user logging in."
+msgstr "Izbeigt visas citas lietotāja aktīvās sesijas, pieslēdzoties."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_login/models.py
+msgid ""
+"Offset the session will be extended by when the user picks the remember me "
+"option. Default of 0 means that the remember me option will not be shown. "
+"(Format: hours=-1;minutes=-2;seconds=-3)"
+msgstr ""
+"Sesijas ilgums tiks pagarināts, kad lietotājs izvēlas opciju atcerēties "
+"mani. Noklusējuma iestatījums 0 nozīmē, ka opcija atcerēties mani netiks "
+"rādīta. (Formāts: stundas=-1;minūtes=-2;sekundes=-3)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_login/models.py
+msgid "User Login Stage"
+msgstr "Lietotāja pieteikšanās posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_login/models.py
+msgid "User Login Stages"
+msgstr "Lietotāja pieslēgšanās posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_login/stage.py
+msgid "No Pending user to login."
+msgstr "Nav lietotāju rindā, kas jāautentificē."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_logout/models.py
+msgid "User Logout Stage"
+msgstr "Lietotāja atteikšanās posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_logout/models.py
+msgid "User Logout Stages"
+msgstr "Lietotāja atteikšanās posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_write/models.py
+msgid "When set, newly created users are inactive and cannot login."
+msgstr ""
+"Kad iestatīts, jaunizveidotie lietotāji ir neaktīvi un nevar pieteikties."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_write/models.py
+msgid "Optionally add newly created users to this group."
+msgstr "Pēc izvēles pievienot jaunizveidotos lietotājus šai grupai."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_write/models.py
+msgid "User Write Stage"
+msgstr "Lietotāja rakstīšanas posms"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_write/models.py
+msgid "User Write Stages"
+msgstr "Lietotāja rakstīšanas posmi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_write/stage.py
+msgid "No Pending data."
+msgstr "Nav gaidošu datu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_write/stage.py
+msgid "No user found and can't create new user."
+msgstr "Lietotājs nav atrasts un jaunus lietotājus izveidot nav iespējams."
+
+# ChatGPT-translated from EN+FR
+#: authentik/stages/user_write/stage.py
+msgid "Failed to update user. Please try again later."
+msgstr "Neizdevās atjaunināt lietotāju. Lūdzu, mēģiniet vēlreiz vēlāk."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid ""
+"Schema name must start with t_, only contain lowercase letters and numbers "
+"and be less than 63 characters."
+msgstr ""
+"Shēmas nosaukumam jāsākas ar t_, tam jāietver tikai mazie burti un cipari un"
+" jābūt mazākam par 63 rakstzīmēm."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Configure how authentik should show avatars for users."
+msgstr "Konfigurēt, kā authentik vajadzētu parādīt lietotāju avatarus."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Enable the ability for users to change their name."
+msgstr "Aktivizēt lietotājiem iespēju mainīt savu vārdu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Enable the ability for users to change their email address."
+msgstr "Iespējojiet lietotājiem iespēju mainīt savu e-pasta adresi."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Enable the ability for users to change their username."
+msgstr "Iespējot lietotājiem mainīt savu lietotājvārdu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid ""
+"Events will be deleted after this duration.(Format: "
+"weeks=3;days=2;hours=3,seconds=2)."
+msgstr ""
+"Pasākumi tiks dzēsti pēc šī laika posma. (Formāts: "
+"weeks=3;days=2;hours=3,seconds=2)"
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Reputation cannot decrease lower than this value. Zero or negative."
+msgstr "Reputācija nevar būt zemāka par šo vērtību. Nulle vai negatīva."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Reputation cannot increase higher than this value. Zero or positive."
+msgstr "Reputācija nevar būt augstāka par šo vērtību. Nulle vai pozitīva."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "The option configures the footer links on the flow executor pages."
+msgstr "Opcija konfigurē kājenes saites plūsmas izpildītāja lapās."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid ""
+"When enabled, all the events caused by a user will be deleted upon the "
+"user's deletion."
+msgstr ""
+"Kad ieslēgts, visi notikumi, ko izraisījis lietotājs, tiks dzēsti, kad "
+"lietotājs tiks dzēsts."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Globally enable/disable impersonation."
+msgstr "Globāli iespējot/atspējot lietotāju imitēšanu."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Require administrators to provide a reason for impersonating a user."
+msgstr ""
+"Pieprasīt administratoriem sniegt iemeslu, kad viņi pārstāv lietotāju."
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Default token duration"
+msgstr "Noklusējuma pilnvaru derīguma termiņš"
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Default token length"
+msgstr "Noklusējuma pilnvaru garums"
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Tenant"
+msgstr "Nomas subjekts"
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Tenants"
+msgstr "Nomas līgumi"
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Domain"
+msgstr "Domaens"
+
+# ChatGPT-translated from EN+FR
+#: authentik/tenants/models.py
+msgid "Domains"
+msgstr "Domēni"

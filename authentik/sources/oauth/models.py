@@ -276,6 +276,23 @@ class RedditOAuthSource(CreatableType, OAuthSource):
         verbose_name_plural = _("Reddit OAuth Sources")
 
 
+class EklaseOAuthSource(CreatableType, OAuthSource):
+    """Social Login using e-klase"""
+
+    class Meta:
+        abstract = True
+        verbose_name = _("Eklase OAuth Source")
+        verbose_name_plural = _("Eklase OAuth Sources")
+
+class EparakstsOAuthSource(CreatableType, OAuthSource):
+    """Social Login using eparaksts"""
+
+    class Meta:
+        abstract = True
+        verbose_name = _("Eparaksts OAuth Source")
+        verbose_name_plural = _("Eparaksts OAuth Sources")
+
+
 class OAuthSourcePropertyMapping(PropertyMapping):
     """Map OAuth properties to User or Group object attributes"""
 
